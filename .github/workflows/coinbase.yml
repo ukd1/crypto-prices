@@ -1,0 +1,29 @@
+name: Coinbase
+on:
+  workflow_dispatch:
+  schedule:
+    - cron:  '*/15 * * * *'
+concurrency: commit
+jobs:
+  price_history:
+    name: Update Coinbase
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.0.1'
+      - name: Config git user
+        run: |
+          git config user.name "Russell Smith"
+          git config user.email ukd1@users.noreply.github.com
+      - name: Update price history
+        run: |
+          cd coinbase
+          ruby currencies.rb
+          ruby products.rb
+          ruby 24h_stats.rb
+          git add currencies.json products.json 24h_stats/*.json
+          git commit currencies.json products.json 24h_stats/*.json -m "Updated Coinbase products, currencies & price history in run ${GITHUB_RUN_NUMBER}" || true
+      - name: Push repo
+        run: git push || true
