@@ -3,13 +3,12 @@
 This repo contains crypto prices and history updated direct from APIs. It's currently updated automatically using Github Actions.
 
 ## Usage
-You can access most of the JSON data via Github's RAW api.
+You can access the most recent JSON data via this repos Github page: e.g. https://ukd1.github.io/crypto-prices/coinbase/products.json
 
-e.g.
-https://raw.githubusercontent.com/ukd1/crypto-prices/main/coinbase/products.json
+If you want to access historic data, clone the repo and scan through the commits for a particular JSON file.
 
 ## Sources
-### Coinabase
+### Coinbase
 Coinbase is updated roughly every 15 minutes. The data we fetch and update is:
 
 * Currencies
