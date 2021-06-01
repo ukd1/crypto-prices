@@ -1754,6 +1754,35 @@
     }
   },
   {
+    "id": "DOGE",
+    "name": "Dogecoin",
+    "min_size": "1",
+    "status": "online",
+    "message": "",
+    "max_precision": "0.1",
+    "convertible_to": [
+
+    ],
+    "details": {
+      "type": "crypto",
+      "symbol": "",
+      "network_confirmations": 120,
+      "sort_order": 7,
+      "crypto_address_link": "https://dogechain.info/address/{{address}}",
+      "crypto_transaction_link": "https://dogechain.info/tx/{{txId}}",
+      "push_payment_methods": [
+        "crypto"
+      ],
+      "group_types": [
+
+      ],
+      "display_name": "",
+      "processing_time_seconds": 0,
+      "min_withdrawal_amount": 0,
+      "max_withdrawal_amount": 0
+    }
+  },
+  {
     "id": "TRB",
     "name": "Tellor",
     "min_size": "0.01",
