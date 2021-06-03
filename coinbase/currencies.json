@@ -1766,7 +1766,7 @@
     "details": {
       "type": "crypto",
       "symbol": "",
-      "network_confirmations": 120,
+      "network_confirmations": 60,
       "sort_order": 7,
       "crypto_address_link": "https://dogechain.info/address/{{address}}",
       "crypto_transaction_link": "https://dogechain.info/tx/{{txId}}",
