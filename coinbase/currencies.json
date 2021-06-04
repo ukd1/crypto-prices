@@ -1778,8 +1778,8 @@
       ],
       "display_name": "",
       "processing_time_seconds": 0,
-      "min_withdrawal_amount": 0,
-      "max_withdrawal_amount": 0
+      "min_withdrawal_amount": 1,
+      "max_withdrawal_amount": 1250000
     }
   },
   {
