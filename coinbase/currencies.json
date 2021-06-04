@@ -1435,35 +1435,6 @@
     }
   },
   {
-    "id": "ADA",
-    "name": "Cardano",
-    "min_size": "1",
-    "status": "online",
-    "message": "",
-    "max_precision": "0.1",
-    "convertible_to": [
-
-    ],
-    "details": {
-      "type": "crypto",
-      "symbol": "",
-      "network_confirmations": 10,
-      "sort_order": 380,
-      "crypto_address_link": "https://explorer.cardano.org/en/address?address={{address}}",
-      "crypto_transaction_link": "https://explorer.cardano.org/en/transaction?id={{txId}}",
-      "push_payment_methods": [
-        "crypto"
-      ],
-      "group_types": [
-
-      ],
-      "display_name": "",
-      "processing_time_seconds": 0,
-      "min_withdrawal_amount": 1,
-      "max_withdrawal_amount": 750000
-    }
-  },
-  {
     "id": "ANKR",
     "name": "Ankr",
     "min_size": "10",
@@ -1577,35 +1548,6 @@
       "processing_time_seconds": 0,
       "min_withdrawal_amount": 55,
       "max_withdrawal_amount": 800000
-    }
-  },
-  {
-    "id": "ICP",
-    "name": "Internet Computer",
-    "min_size": "0.01",
-    "status": "online",
-    "message": "We've started accepting ICP deposits.",
-    "max_precision": "0.001",
-    "convertible_to": [
-
-    ],
-    "details": {
-      "type": "crypto",
-      "symbol": "",
-      "network_confirmations": 0,
-      "sort_order": 460,
-      "crypto_address_link": "https://dashboard.internetcomputer.org/account/{{address}}",
-      "crypto_transaction_link": "",
-      "push_payment_methods": [
-        "crypto"
-      ],
-      "group_types": [
-
-      ],
-      "display_name": "",
-      "processing_time_seconds": 0,
-      "min_withdrawal_amount": 0.04,
-      "max_withdrawal_amount": 4000
     }
   },
   {
@@ -1751,35 +1693,6 @@
       "processing_time_seconds": 0,
       "min_withdrawal_amount": 0.86,
       "max_withdrawal_amount": 7000
-    }
-  },
-  {
-    "id": "DOGE",
-    "name": "Dogecoin",
-    "min_size": "1",
-    "status": "online",
-    "message": "",
-    "max_precision": "0.1",
-    "convertible_to": [
-
-    ],
-    "details": {
-      "type": "crypto",
-      "symbol": "",
-      "network_confirmations": 60,
-      "sort_order": 7,
-      "crypto_address_link": "https://dogechain.info/address/{{address}}",
-      "crypto_transaction_link": "https://dogechain.info/tx/{{txId}}",
-      "push_payment_methods": [
-        "crypto"
-      ],
-      "group_types": [
-
-      ],
-      "display_name": "",
-      "processing_time_seconds": 0,
-      "min_withdrawal_amount": 1,
-      "max_withdrawal_amount": 1250000
     }
   },
   {
@@ -1957,6 +1870,64 @@
     }
   },
   {
+    "id": "DOGE",
+    "name": "Dogecoin",
+    "min_size": "1",
+    "status": "online",
+    "message": "",
+    "max_precision": "0.1",
+    "convertible_to": [
+
+    ],
+    "details": {
+      "type": "crypto",
+      "symbol": "",
+      "network_confirmations": 60,
+      "sort_order": 29,
+      "crypto_address_link": "https://dogechain.info/address/{{address}}",
+      "crypto_transaction_link": "",
+      "push_payment_methods": [
+        "crypto"
+      ],
+      "group_types": [
+
+      ],
+      "display_name": "",
+      "processing_time_seconds": 0,
+      "min_withdrawal_amount": 1,
+      "max_withdrawal_amount": 1250000
+    }
+  },
+  {
+    "id": "ADA",
+    "name": "Cardano",
+    "min_size": "1",
+    "status": "online",
+    "message": "",
+    "max_precision": "0.1",
+    "convertible_to": [
+
+    ],
+    "details": {
+      "type": "crypto",
+      "symbol": "",
+      "network_confirmations": 10,
+      "sort_order": 28,
+      "crypto_address_link": "https://explorer.cardano.org/en/address?address={{address}}",
+      "crypto_transaction_link": "",
+      "push_payment_methods": [
+        "crypto"
+      ],
+      "group_types": [
+
+      ],
+      "display_name": "",
+      "processing_time_seconds": 0,
+      "min_withdrawal_amount": 1,
+      "max_withdrawal_amount": 750000
+    }
+  },
+  {
     "id": "USDT",
     "name": "Tether",
     "min_size": "1",
@@ -1970,7 +1941,7 @@
       "type": "crypto",
       "symbol": "",
       "network_confirmations": 35,
-      "sort_order": 5,
+      "sort_order": 26,
       "crypto_address_link": "https://etherscan.io/token/0xdac17f958d2ee523a2206206994597c13d831ec7?a={{address}}",
       "crypto_transaction_link": "",
       "push_payment_methods": [
@@ -1983,6 +1954,35 @@
       "processing_time_seconds": 0,
       "min_withdrawal_amount": 13,
       "max_withdrawal_amount": 10000000
+    }
+  },
+  {
+    "id": "ICP",
+    "name": "Internet Computer",
+    "min_size": "0.01",
+    "status": "online",
+    "message": "We've started accepting ICP deposits.",
+    "max_precision": "0.001",
+    "convertible_to": [
+
+    ],
+    "details": {
+      "type": "crypto",
+      "symbol": "",
+      "network_confirmations": 0,
+      "sort_order": 34,
+      "crypto_address_link": "https://dashboard.internetcomputer.org/account/{{address}}",
+      "crypto_transaction_link": "",
+      "push_payment_methods": [
+        "crypto"
+      ],
+      "group_types": [
+
+      ],
+      "display_name": "",
+      "processing_time_seconds": 0,
+      "min_withdrawal_amount": 0.04,
+      "max_withdrawal_amount": 4000
     }
   }
 ]
