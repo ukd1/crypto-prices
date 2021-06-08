@@ -1435,6 +1435,35 @@
     }
   },
   {
+    "id": "MLN",
+    "name": "Enzyme",
+    "min_size": "0.01",
+    "status": "online",
+    "message": "",
+    "max_precision": "0.001",
+    "convertible_to": [
+
+    ],
+    "details": {
+      "type": "crypto",
+      "symbol": "",
+      "network_confirmations": 35,
+      "sort_order": 313,
+      "crypto_address_link": "https://etherscan.io/token/0xec67005c4e498ec7f55e092bd1d35cbc47c91892?a={{address}}",
+      "crypto_transaction_link": "https://etherscan.io/tx/0x{{txId}}",
+      "push_payment_methods": [
+        "crypto"
+      ],
+      "group_types": [
+
+      ],
+      "display_name": "",
+      "processing_time_seconds": 0,
+      "min_withdrawal_amount": 1.0e-18,
+      "max_withdrawal_amount": 1500
+    }
+  },
+  {
     "id": "ANKR",
     "name": "Ankr",
     "min_size": "10",
@@ -1548,6 +1577,35 @@
       "processing_time_seconds": 0,
       "min_withdrawal_amount": 55,
       "max_withdrawal_amount": 800000
+    }
+  },
+  {
+    "id": "AMP",
+    "name": "Amp",
+    "min_size": "10",
+    "status": "online",
+    "message": "",
+    "max_precision": "1",
+    "convertible_to": [
+
+    ],
+    "details": {
+      "type": "crypto",
+      "symbol": "",
+      "network_confirmations": 35,
+      "sort_order": 65,
+      "crypto_address_link": "https://etherscan.io/token/0xff20817765cb7f73d4bde2e66e067e58d11095c2?a={{address}}",
+      "crypto_transaction_link": "https://etherscan.io/tx/0x{{txId}}",
+      "push_payment_methods": [
+        "crypto"
+      ],
+      "group_types": [
+
+      ],
+      "display_name": "",
+      "processing_time_seconds": 0,
+      "min_withdrawal_amount": 1.0e-18,
+      "max_withdrawal_amount": 3125000
     }
   },
   {
@@ -1693,6 +1751,35 @@
       "processing_time_seconds": 0,
       "min_withdrawal_amount": 0.86,
       "max_withdrawal_amount": 7000
+    }
+  },
+  {
+    "id": "GTC",
+    "name": "Gitcoin",
+    "min_size": "0.1",
+    "status": "online",
+    "message": "",
+    "max_precision": "0.01",
+    "convertible_to": [
+
+    ],
+    "details": {
+      "type": "crypto",
+      "symbol": "",
+      "network_confirmations": 35,
+      "sort_order": 360,
+      "crypto_address_link": "https://etherscan.io/token/0xde30da39c46104798bb5aa3fe8b9e0e1f348163f?a={{address}}",
+      "crypto_transaction_link": "https://etherscan.io/tx/0x{{txId}}",
+      "push_payment_methods": [
+        "crypto"
+      ],
+      "group_types": [
+
+      ],
+      "display_name": "",
+      "processing_time_seconds": 0,
+      "min_withdrawal_amount": 1.0e-18,
+      "max_withdrawal_amount": 20700
     }
   },
   {
