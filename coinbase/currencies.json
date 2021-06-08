@@ -1982,7 +1982,7 @@
       "display_name": "",
       "processing_time_seconds": 0,
       "min_withdrawal_amount": 1,
-      "max_withdrawal_amount": 1250000
+      "max_withdrawal_amount": 500000
     }
   },
   {
