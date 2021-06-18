@@ -203,35 +203,6 @@
     }
   },
   {
-    "id": "SOL",
-    "name": "Solana",
-    "min_size": "0.01",
-    "status": "online",
-    "message": "We've started accepting SOL deposits. Trading will begin shortly.",
-    "max_precision": "0.000000001",
-    "convertible_to": [
-
-    ],
-    "details": {
-      "type": "crypto",
-      "symbol": "",
-      "network_confirmations": 31,
-      "sort_order": 14,
-      "crypto_address_link": "https://explorer.solana.com/address/{{address}}",
-      "crypto_transaction_link": "https://explorer.solana.com/tx/{{txId}}",
-      "push_payment_methods": [
-        "crypto"
-      ],
-      "group_types": [
-
-      ],
-      "display_name": "",
-      "processing_time_seconds": 0,
-      "min_withdrawal_amount": 1.12,
-      "max_withdrawal_amount": 9000
-    }
-  },
-  {
     "id": "CGLD",
     "name": "Celo",
     "min_size": "0.1",
@@ -2073,6 +2044,35 @@
     }
   },
   {
+    "id": "DOT",
+    "name": "Polkadot",
+    "min_size": "0.01",
+    "status": "online",
+    "message": "We've started accepting DOT deposits. Trading will begin shortly.",
+    "max_precision": "0.001",
+    "convertible_to": [
+
+    ],
+    "details": {
+      "type": "crypto",
+      "symbol": "",
+      "network_confirmations": 10,
+      "sort_order": 30,
+      "crypto_address_link": "https://polkascan.io/polkadot/account/{{address}}",
+      "crypto_transaction_link": "https://polkascan.io/polkadot/balances/transfer/{{txId}}",
+      "push_payment_methods": [
+        "crypto"
+      ],
+      "group_types": [
+
+      ],
+      "display_name": "",
+      "processing_time_seconds": 0,
+      "min_withdrawal_amount": 1.03,
+      "max_withdrawal_amount": 13000
+    }
+  },
+  {
     "id": "CHZ",
     "name": "Chiliz",
     "min_size": "1",
@@ -2160,22 +2160,22 @@
     }
   },
   {
-    "id": "DOT",
-    "name": "Polkadot",
+    "id": "SOL",
+    "name": "Solana",
     "min_size": "0.01",
     "status": "online",
-    "message": "We've started accepting DOT deposits. Trading will begin shortly.",
-    "max_precision": "0.001",
+    "message": "We've started accepting SOL deposits. Trading will begin shortly.",
+    "max_precision": "0.000000001",
     "convertible_to": [
 
     ],
     "details": {
       "type": "crypto",
       "symbol": "",
-      "network_confirmations": 10,
-      "sort_order": 8,
-      "crypto_address_link": "https://polkascan.io/polkadot/account/{{address}}",
-      "crypto_transaction_link": "https://polkascan.io/polkadot/balances/transfer/{{txId}}",
+      "network_confirmations": 31,
+      "sort_order": 31,
+      "crypto_address_link": "https://explorer.solana.com/address/{{address}}",
+      "crypto_transaction_link": "https://explorer.solana.com/tx/{{txId}}",
       "push_payment_methods": [
         "crypto"
       ],
@@ -2184,8 +2184,8 @@
       ],
       "display_name": "",
       "processing_time_seconds": 0,
-      "min_withdrawal_amount": 1.03,
-      "max_withdrawal_amount": 13000
+      "min_withdrawal_amount": 1.12,
+      "max_withdrawal_amount": 9000
     }
   }
 ]
