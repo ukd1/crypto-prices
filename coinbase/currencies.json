@@ -203,6 +203,35 @@
     }
   },
   {
+    "id": "ICP",
+    "name": "Internet Computer",
+    "min_size": "0.01",
+    "status": "online",
+    "message": "We've started accepting ICP deposits.",
+    "max_precision": "0.001",
+    "convertible_to": [
+
+    ],
+    "details": {
+      "type": "crypto",
+      "symbol": "",
+      "network_confirmations": 0,
+      "sort_order": 34,
+      "crypto_address_link": "https://dashboard.internetcomputer.org/account/{{address}}",
+      "crypto_transaction_link": "",
+      "push_payment_methods": [
+        "crypto"
+      ],
+      "group_types": [
+
+      ],
+      "display_name": "",
+      "processing_time_seconds": 0,
+      "min_withdrawal_amount": 0.04,
+      "max_withdrawal_amount": 20000
+    }
+  },
+  {
     "id": "CGLD",
     "name": "Celo",
     "min_size": "0.1",
@@ -2012,35 +2041,6 @@
       "processing_time_seconds": 0,
       "min_withdrawal_amount": 13,
       "max_withdrawal_amount": 10000000
-    }
-  },
-  {
-    "id": "ICP",
-    "name": "Internet Computer",
-    "min_size": "0.01",
-    "status": "online",
-    "message": "We've started accepting ICP deposits.",
-    "max_precision": "0.001",
-    "convertible_to": [
-
-    ],
-    "details": {
-      "type": "crypto",
-      "symbol": "",
-      "network_confirmations": 0,
-      "sort_order": 34,
-      "crypto_address_link": "https://dashboard.internetcomputer.org/account/{{address}}",
-      "crypto_transaction_link": "",
-      "push_payment_methods": [
-        "crypto"
-      ],
-      "group_types": [
-
-      ],
-      "display_name": "",
-      "processing_time_seconds": 0,
-      "min_withdrawal_amount": 0.04,
-      "max_withdrawal_amount": 4000
     }
   },
   {
