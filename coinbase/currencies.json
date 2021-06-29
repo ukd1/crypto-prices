@@ -2102,35 +2102,6 @@
     }
   },
   {
-    "id": "KEEP",
-    "name": "Keep Network",
-    "min_size": "1",
-    "status": "online",
-    "message": "",
-    "max_precision": "0.1",
-    "convertible_to": [
-
-    ],
-    "details": {
-      "type": "crypto",
-      "symbol": "",
-      "network_confirmations": 35,
-      "sort_order": 266,
-      "crypto_address_link": "https://etherscan.io/token/0x85eee30c52b0b379b046fb0f85f4f3dc3009afec?a={{address}}",
-      "crypto_transaction_link": "https://etherscan.io/tx/0x{{txId}}",
-      "push_payment_methods": [
-        "crypto"
-      ],
-      "group_types": [
-
-      ],
-      "display_name": "",
-      "processing_time_seconds": 0,
-      "min_withdrawal_amount": 1.0e-18,
-      "max_withdrawal_amount": 68750
-    }
-  },
-  {
     "id": "SHIB",
     "name": "Shiba Inu",
     "min_size": "100000",
@@ -2273,6 +2244,35 @@
       "processing_time_seconds": 0,
       "min_withdrawal_amount": 1.0e-18,
       "max_withdrawal_amount": 3125
+    }
+  },
+  {
+    "id": "KEEP",
+    "name": "Keep Network",
+    "min_size": "1",
+    "status": "online",
+    "message": "",
+    "max_precision": "0.1",
+    "convertible_to": [
+
+    ],
+    "details": {
+      "type": "crypto",
+      "symbol": "",
+      "network_confirmations": 35,
+      "sort_order": 266,
+      "crypto_address_link": "https://etherscan.io/token/0x85eee30c52b0b379b046fb0f85f4f3dc3009afec?a={{address}}",
+      "crypto_transaction_link": "https://etherscan.io/tx/0x{{txId}}",
+      "push_payment_methods": [
+        "crypto"
+      ],
+      "group_types": [
+
+      ],
+      "display_name": "",
+      "processing_time_seconds": 0,
+      "min_withdrawal_amount": 1.0e-18,
+      "max_withdrawal_amount": 446000
     }
   }
 ]
