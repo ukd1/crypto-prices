@@ -2274,5 +2274,63 @@
       "min_withdrawal_amount": 1.0e-18,
       "max_withdrawal_amount": 446000
     }
+  },
+  {
+    "id": "RLY",
+    "name": "Rally",
+    "min_size": "1",
+    "status": "online",
+    "message": "",
+    "max_precision": "1",
+    "convertible_to": [
+
+    ],
+    "details": {
+      "type": "crypto",
+      "symbol": "",
+      "network_confirmations": 35,
+      "sort_order": 304,
+      "crypto_address_link": "https://etherscan.io/token/0xf1f955016ecbcd7321c7266bccfb96c68ea5e49b?a={{address}}",
+      "crypto_transaction_link": "https://etherscan.io/tx/0x{{txId}}",
+      "push_payment_methods": [
+        "crypto"
+      ],
+      "group_types": [
+
+      ],
+      "display_name": "",
+      "processing_time_seconds": 0,
+      "min_withdrawal_amount": 1.0e-18,
+      "max_withdrawal_amount": 2500
+    }
+  },
+  {
+    "id": "MASK",
+    "name": "Mask Network",
+    "min_size": "0.1",
+    "status": "online",
+    "message": "",
+    "max_precision": "0.01",
+    "convertible_to": [
+
+    ],
+    "details": {
+      "type": "crypto",
+      "symbol": "",
+      "network_confirmations": 35,
+      "sort_order": 387,
+      "crypto_address_link": "https://etherscan.io/token/0x69af81e73a73b40adf4f3d4223cd9b1ece623074?a={{address}}",
+      "crypto_transaction_link": "https://etherscan.io/tx/0x{{txId}}",
+      "push_payment_methods": [
+        "crypto"
+      ],
+      "group_types": [
+
+      ],
+      "display_name": "",
+      "processing_time_seconds": 0,
+      "min_withdrawal_amount": 1.0e-18,
+      "max_withdrawal_amount": 33069
+    }
   }
 ]
