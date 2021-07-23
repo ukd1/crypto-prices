@@ -54,7 +54,7 @@
       "display_name": "",
       "processing_time_seconds": 0,
       "min_withdrawal_amount": 0.0001,
-      "max_withdrawal_amount": 10000
+      "max_withdrawal_amount": 5900
     }
   },
   {
@@ -112,7 +112,7 @@
       "display_name": "",
       "processing_time_seconds": 5,
       "min_withdrawal_amount": 0.1,
-      "max_withdrawal_amount": 40000
+      "max_withdrawal_amount": 302000
     }
   },
   {
@@ -170,7 +170,7 @@
       "display_name": "",
       "processing_time_seconds": 0,
       "min_withdrawal_amount": 1.55,
-      "max_withdrawal_amount": 14000
+      "max_withdrawal_amount": 51000
     }
   },
   {
@@ -228,7 +228,7 @@
       "display_name": "",
       "processing_time_seconds": 0,
       "min_withdrawal_amount": 0.04,
-      "max_withdrawal_amount": 20000
+      "max_withdrawal_amount": 27000
     }
   },
   {
@@ -286,7 +286,7 @@
       "display_name": "",
       "processing_time_seconds": 0,
       "min_withdrawal_amount": 0.01,
-      "max_withdrawal_amount": 1900
+      "max_withdrawal_amount": 8700
     }
   },
   {
@@ -402,7 +402,7 @@
       "display_name": "",
       "processing_time_seconds": 6,
       "min_withdrawal_amount": 2,
-      "max_withdrawal_amount": 550000
+      "max_withdrawal_amount": 1538000
     }
   },
   {
@@ -431,7 +431,7 @@
       "display_name": "",
       "processing_time_seconds": 360,
       "min_withdrawal_amount": 1,
-      "max_withdrawal_amount": 36000
+      "max_withdrawal_amount": 50900
     }
   },
   {
@@ -779,7 +779,7 @@
       "display_name": "",
       "processing_time_seconds": 0,
       "min_withdrawal_amount": 0.01,
-      "max_withdrawal_amount": 70000
+      "max_withdrawal_amount": 136000
     }
   },
   {
@@ -809,7 +809,7 @@
       "display_name": "",
       "processing_time_seconds": 0,
       "min_withdrawal_amount": 0.0001,
-      "max_withdrawal_amount": 500
+      "max_withdrawal_amount": 2400
     }
   },
   {
@@ -897,7 +897,7 @@
       "display_name": "",
       "processing_time_seconds": 0,
       "min_withdrawal_amount": 0.001,
-      "max_withdrawal_amount": 30000
+      "max_withdrawal_amount": 54400
     }
   },
   {
@@ -992,7 +992,7 @@
       "display_name": "",
       "processing_time_seconds": 0,
       "min_withdrawal_amount": 0.001,
-      "max_withdrawal_amount": 5000
+      "max_withdrawal_amount": 7450
     }
   },
   {
@@ -1021,7 +1021,7 @@
       "display_name": "",
       "processing_time_seconds": 0,
       "min_withdrawal_amount": 1.0e-05,
-      "max_withdrawal_amount": 8500
+      "max_withdrawal_amount": 10600
     }
   },
   {
@@ -1050,7 +1050,7 @@
       "display_name": "",
       "processing_time_seconds": 0,
       "min_withdrawal_amount": 0.001,
-      "max_withdrawal_amount": 10000
+      "max_withdrawal_amount": 15350
     }
   },
   {
@@ -1081,7 +1081,7 @@
       "display_name": "",
       "processing_time_seconds": 0,
       "min_withdrawal_amount": 0.001,
-      "max_withdrawal_amount": 8500000
+      "max_withdrawal_amount": 15000000
     }
   },
   {
@@ -1110,7 +1110,7 @@
       "display_name": "",
       "processing_time_seconds": 0,
       "min_withdrawal_amount": 1.0e-05,
-      "max_withdrawal_amount": 8500
+      "max_withdrawal_amount": 15600
     }
   },
   {
@@ -1139,7 +1139,7 @@
       "display_name": "",
       "processing_time_seconds": 0,
       "min_withdrawal_amount": 6.23,
-      "max_withdrawal_amount": 46000
+      "max_withdrawal_amount": 175000
     }
   },
   {
@@ -1199,7 +1199,7 @@
       "display_name": "",
       "processing_time_seconds": 0,
       "min_withdrawal_amount": 0.00054,
-      "max_withdrawal_amount": 20
+      "max_withdrawal_amount": 40
     }
   },
   {
@@ -1228,7 +1228,7 @@
       "display_name": "",
       "processing_time_seconds": 0,
       "min_withdrawal_amount": 0,
-      "max_withdrawal_amount": 325000
+      "max_withdrawal_amount": 2180000
     }
   },
   {
@@ -1286,7 +1286,7 @@
       "display_name": "",
       "processing_time_seconds": 0,
       "min_withdrawal_amount": 0.07,
-      "max_withdrawal_amount": 1500
+      "max_withdrawal_amount": 7000
     }
   },
   {
@@ -1402,7 +1402,7 @@
       "display_name": "",
       "processing_time_seconds": 0,
       "min_withdrawal_amount": 1,
-      "max_withdrawal_amount": 52500
+      "max_withdrawal_amount": 141000
     }
   },
   {
@@ -1489,7 +1489,7 @@
       "display_name": "",
       "processing_time_seconds": 0,
       "min_withdrawal_amount": 6.3,
-      "max_withdrawal_amount": 83000
+      "max_withdrawal_amount": 412000
     }
   },
   {
@@ -1576,7 +1576,7 @@
       "display_name": "",
       "processing_time_seconds": 0,
       "min_withdrawal_amount": 1.0e-18,
-      "max_withdrawal_amount": 3125000
+      "max_withdrawal_amount": 4170000
     }
   },
   {
@@ -1634,7 +1634,7 @@
       "display_name": "",
       "processing_time_seconds": 0,
       "min_withdrawal_amount": 5.89,
-      "max_withdrawal_amount": 48000
+      "max_withdrawal_amount": 243000
     }
   },
   {
@@ -1692,7 +1692,7 @@
       "display_name": "",
       "processing_time_seconds": 0,
       "min_withdrawal_amount": 15.26,
-      "max_withdrawal_amount": 70000
+      "max_withdrawal_amount": 368000
     }
   },
   {
@@ -1866,7 +1866,7 @@
       "display_name": "",
       "processing_time_seconds": 0,
       "min_withdrawal_amount": 23.88,
-      "max_withdrawal_amount": 450000
+      "max_withdrawal_amount": 802000
     }
   },
   {
@@ -1953,7 +1953,7 @@
       "display_name": "",
       "processing_time_seconds": 0,
       "min_withdrawal_amount": 1,
-      "max_withdrawal_amount": 500000
+      "max_withdrawal_amount": 17391300
     }
   },
   {
@@ -2330,7 +2330,7 @@
       "display_name": "",
       "processing_time_seconds": 0,
       "min_withdrawal_amount": 1.0e-18,
-      "max_withdrawal_amount": 1675000
+      "max_withdrawal_amount": 1160000
     }
   },
   {
