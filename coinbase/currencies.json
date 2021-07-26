@@ -2361,5 +2361,121 @@
       "min_withdrawal_amount": 1.0e-18,
       "max_withdrawal_amount": 25510
     }
+  },
+  {
+    "id": "POLY",
+    "name": "Polymath Network",
+    "min_size": "1",
+    "status": "online",
+    "message": "",
+    "max_precision": "1",
+    "convertible_to": [
+
+    ],
+    "details": {
+      "type": "crypto",
+      "symbol": "",
+      "network_confirmations": 35,
+      "sort_order": 219,
+      "crypto_address_link": "https://etherscan.io/token/0x9992ec3cf6a55b00978cddf2b27bc6882d88d1ec?a={{address}}",
+      "crypto_transaction_link": "https://etherscan.io/tx/0x{{txId}}",
+      "push_payment_methods": [
+        "crypto"
+      ],
+      "group_types": [
+
+      ],
+      "display_name": "",
+      "processing_time_seconds": 0,
+      "min_withdrawal_amount": 1.0e-18,
+      "max_withdrawal_amount": 1505852
+    }
+  },
+  {
+    "id": "FARM",
+    "name": "Harvest Finance",
+    "min_size": "0.01",
+    "status": "online",
+    "message": "",
+    "max_precision": "0.001",
+    "convertible_to": [
+
+    ],
+    "details": {
+      "type": "crypto",
+      "symbol": "",
+      "network_confirmations": 35,
+      "sort_order": 509,
+      "crypto_address_link": "https://etherscan.io/token/0xa0246c9032bc3a600820415ae600c6388619a14d?a={{address}}",
+      "crypto_transaction_link": "https://etherscan.io/tx/0x{{txId}}",
+      "push_payment_methods": [
+        "crypto"
+      ],
+      "group_types": [
+
+      ],
+      "display_name": "",
+      "processing_time_seconds": 0,
+      "min_withdrawal_amount": 1.0e-18,
+      "max_withdrawal_amount": 2500
+    }
+  },
+  {
+    "id": "FET",
+    "name": "Fetch.ai",
+    "min_size": "1",
+    "status": "online",
+    "message": "",
+    "max_precision": "0.1",
+    "convertible_to": [
+
+    ],
+    "details": {
+      "type": "crypto",
+      "symbol": "",
+      "network_confirmations": 35,
+      "sort_order": 202,
+      "crypto_address_link": "https://etherscan.io/token/0xaea46a60368a7bd060eec7df8cba43b7ef41ad85?a={{address}}",
+      "crypto_transaction_link": "https://etherscan.io/tx/0x{{txId}}",
+      "push_payment_methods": [
+        "crypto"
+      ],
+      "group_types": [
+
+      ],
+      "display_name": "",
+      "processing_time_seconds": 0,
+      "min_withdrawal_amount": 0,
+      "max_withdrawal_amount": 0
+    }
+  },
+  {
+    "id": "PAX",
+    "name": "Paxos Standard",
+    "min_size": "0.1",
+    "status": "online",
+    "message": "",
+    "max_precision": "0.01",
+    "convertible_to": [
+
+    ],
+    "details": {
+      "type": "crypto",
+      "symbol": "",
+      "network_confirmations": 35,
+      "sort_order": 76,
+      "crypto_address_link": "https://etherscan.io/token/0x8e870d67f660d95d5be530380d0ec0bd388289e1?a={{address}}",
+      "crypto_transaction_link": "https://etherscan.io/tx/0x{{txId}}",
+      "push_payment_methods": [
+        "crypto"
+      ],
+      "group_types": [
+
+      ],
+      "display_name": "",
+      "processing_time_seconds": 0,
+      "min_withdrawal_amount": 1.0e-18,
+      "max_withdrawal_amount": 125000
+    }
   }
 ]
