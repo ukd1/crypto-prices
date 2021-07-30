@@ -319,35 +319,6 @@
     }
   },
   {
-    "id": "OMG",
-    "name": "OMG Network",
-    "min_size": "1",
-    "status": "online",
-    "message": "",
-    "max_precision": "0.00000001",
-    "convertible_to": [
-
-    ],
-    "details": {
-      "type": "crypto",
-      "symbol": "",
-      "network_confirmations": 35,
-      "sort_order": 57,
-      "crypto_address_link": "https://etherscan.io/token/0xd26114cd6EE289AccF82350c8d8487fedB8A0C07?a={{address}}",
-      "crypto_transaction_link": "https://etherscan.io/tx/0x{{txId}}",
-      "push_payment_methods": [
-        "crypto"
-      ],
-      "group_types": [
-
-      ],
-      "display_name": "",
-      "processing_time_seconds": 0,
-      "min_withdrawal_amount": 0.01,
-      "max_withdrawal_amount": 200000
-    }
-  },
-  {
     "id": "BAND",
     "name": "Band Protocol",
     "min_size": "0.1",
@@ -2331,6 +2302,35 @@
       "processing_time_seconds": 0,
       "min_withdrawal_amount": 1.0e-18,
       "max_withdrawal_amount": 1160000
+    }
+  },
+  {
+    "id": "OMG",
+    "name": "OMG Network",
+    "min_size": "1",
+    "status": "online",
+    "message": "",
+    "max_precision": "0.00000001",
+    "convertible_to": [
+
+    ],
+    "details": {
+      "type": "crypto",
+      "symbol": "",
+      "network_confirmations": 35,
+      "sort_order": 57,
+      "crypto_address_link": "https://etherscan.io/token/0xd26114cd6EE289AccF82350c8d8487fedB8A0C07?a={{address}}",
+      "crypto_transaction_link": "https://etherscan.io/tx/0x{{txId}}",
+      "push_payment_methods": [
+        "crypto"
+      ],
+      "group_types": [
+
+      ],
+      "display_name": "",
+      "processing_time_seconds": 0,
+      "min_withdrawal_amount": 0.01,
+      "max_withdrawal_amount": 69000
     }
   },
   {
