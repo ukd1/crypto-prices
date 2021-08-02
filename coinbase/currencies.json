@@ -319,6 +319,35 @@
     }
   },
   {
+    "id": "ACH",
+    "name": "Alchemy Pay",
+    "min_size": "0.1",
+    "status": "online",
+    "message": "",
+    "max_precision": "100",
+    "convertible_to": [
+
+    ],
+    "details": {
+      "type": "crypto",
+      "symbol": "",
+      "network_confirmations": 35,
+      "sort_order": 1356,
+      "crypto_address_link": "https://etherscan.io/token/0xed04915c23f00a313a544955524eb7dbd823143d?a={{address}}",
+      "crypto_transaction_link": "https://etherscan.io/tx/0x{{txId}}",
+      "push_payment_methods": [
+        "crypto"
+      ],
+      "group_types": [
+
+      ],
+      "display_name": "",
+      "processing_time_seconds": 0,
+      "min_withdrawal_amount": 1.0e-08,
+      "max_withdrawal_amount": 83250000
+    }
+  },
+  {
     "id": "BAND",
     "name": "Band Protocol",
     "min_size": "0.1",
@@ -2476,6 +2505,64 @@
       "processing_time_seconds": 0,
       "min_withdrawal_amount": 1.0e-18,
       "max_withdrawal_amount": 117500
+    }
+  },
+  {
+    "id": "PLA",
+    "name": "PlayDapp",
+    "min_size": "1",
+    "status": "online",
+    "message": "",
+    "max_precision": "0.1",
+    "convertible_to": [
+
+    ],
+    "details": {
+      "type": "crypto",
+      "symbol": "",
+      "network_confirmations": 35,
+      "sort_order": 1500,
+      "crypto_address_link": "https://etherscan.io/token/0x3a4f40631a4f906c2bad353ed06de7a5d3fcb430?a={{address}}",
+      "crypto_transaction_link": "https://etherscan.io/tx/0x{{txId}}",
+      "push_payment_methods": [
+        "crypto"
+      ],
+      "group_types": [
+
+      ],
+      "display_name": "",
+      "processing_time_seconds": 0,
+      "min_withdrawal_amount": 1.0e-18,
+      "max_withdrawal_amount": 700000
+    }
+  },
+  {
+    "id": "RAI",
+    "name": "Rai Reflex Index",
+    "min_size": "0.1",
+    "status": "online",
+    "message": "",
+    "max_precision": "0.01",
+    "convertible_to": [
+
+    ],
+    "details": {
+      "type": "crypto",
+      "symbol": "",
+      "network_confirmations": 35,
+      "sort_order": 550,
+      "crypto_address_link": "https://etherscan.io/token/0x03ab458634910aad20ef5f1c8ee96f1d6ac54919?a={{address}}",
+      "crypto_transaction_link": "https://etherscan.io/tx/0x{{txId}}",
+      "push_payment_methods": [
+        "crypto"
+      ],
+      "group_types": [
+
+      ],
+      "display_name": "",
+      "processing_time_seconds": 0,
+      "min_withdrawal_amount": 1.0e-18,
+      "max_withdrawal_amount": 41000
     }
   }
 ]
