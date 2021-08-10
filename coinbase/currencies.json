@@ -2564,5 +2564,150 @@
       "min_withdrawal_amount": 1.0e-18,
       "max_withdrawal_amount": 41000
     }
+  },
+  {
+    "id": "IOTX",
+    "name": "IoTeX",
+    "min_size": "10",
+    "status": "online",
+    "message": "",
+    "max_precision": "1",
+    "convertible_to": [
+
+    ],
+    "details": {
+      "type": "crypto",
+      "symbol": "",
+      "network_confirmations": 35,
+      "sort_order": 197,
+      "crypto_address_link": "https://etherscan.io/token/0x6fb3e0a217407efff7ca062d46c26e5d60a14d69?a={{address}}",
+      "crypto_transaction_link": "https://etherscan.io/tx/0x{{txId}}",
+      "push_payment_methods": [
+        "crypto"
+      ],
+      "group_types": [
+
+      ],
+      "display_name": "",
+      "processing_time_seconds": 0,
+      "min_withdrawal_amount": 1.0e-18,
+      "max_withdrawal_amount": 6544503
+    }
+  },
+  {
+    "id": "ORN",
+    "name": "Orion Protocol",
+    "min_size": "0.1",
+    "status": "online",
+    "message": "",
+    "max_precision": "0.01",
+    "convertible_to": [
+
+    ],
+    "details": {
+      "type": "crypto",
+      "symbol": "",
+      "network_confirmations": 35,
+      "sort_order": 230,
+      "crypto_address_link": "https://etherscan.io/token/0x0258f474786ddfd37abce6df6bbb1dd5dfc4434a?a={{address}}",
+      "crypto_transaction_link": "https://etherscan.io/tx/0x{{txId}}",
+      "push_payment_methods": [
+        "crypto"
+      ],
+      "group_types": [
+
+      ],
+      "display_name": "",
+      "processing_time_seconds": 0,
+      "min_withdrawal_amount": 1.0e-08,
+      "max_withdrawal_amount": 21259
+    }
+  },
+  {
+    "id": "QUICK",
+    "name": "QuickSwap",
+    "min_size": "0.001",
+    "status": "online",
+    "message": "",
+    "max_precision": "0.0001",
+    "convertible_to": [
+
+    ],
+    "details": {
+      "type": "crypto",
+      "symbol": "",
+      "network_confirmations": 35,
+      "sort_order": 463,
+      "crypto_address_link": "https://etherscan.io/token/0x6c28aef8977c9b773996d0e8376d2ee379446f2f?a={{address}}",
+      "crypto_transaction_link": "https://etherscan.io/tx/0x{{txId}}",
+      "push_payment_methods": [
+        "crypto"
+      ],
+      "group_types": [
+
+      ],
+      "display_name": "",
+      "processing_time_seconds": 0,
+      "min_withdrawal_amount": 1.0e-18,
+      "max_withdrawal_amount": 365
+    }
+  },
+  {
+    "id": "TRIBE",
+    "name": "Tribe",
+    "min_size": "1",
+    "status": "online",
+    "message": "",
+    "max_precision": "0.1",
+    "convertible_to": [
+
+    ],
+    "details": {
+      "type": "crypto",
+      "symbol": "",
+      "network_confirmations": 35,
+      "sort_order": 176,
+      "crypto_address_link": "https://etherscan.io/token/0xc7283b66eb1eb5fb86327f08e1b5816b0720212b?a={{address}}",
+      "crypto_transaction_link": "https://etherscan.io/tx/0x{{txId}}",
+      "push_payment_methods": [
+        "crypto"
+      ],
+      "group_types": [
+
+      ],
+      "display_name": "",
+      "processing_time_seconds": 0,
+      "min_withdrawal_amount": 1.0e-18,
+      "max_withdrawal_amount": 204918
+    }
+  },
+  {
+    "id": "UST",
+    "name": "TerraUSD",
+    "min_size": "1",
+    "status": "online",
+    "message": "",
+    "max_precision": "0.01",
+    "convertible_to": [
+
+    ],
+    "details": {
+      "type": "crypto",
+      "symbol": "",
+      "network_confirmations": 35,
+      "sort_order": 59,
+      "crypto_address_link": "https://etherscan.io/token/0xa47c8bf37f92abed4a126bda807a7b7498661acd?a={{address}}",
+      "crypto_transaction_link": "https://etherscan.io/tx/0x{{txId}}",
+      "push_payment_methods": [
+        "crypto"
+      ],
+      "group_types": [
+
+      ],
+      "display_name": "",
+      "processing_time_seconds": 0,
+      "min_withdrawal_amount": 1.0e-18,
+      "max_withdrawal_amount": 500000
+    }
   }
 ]
