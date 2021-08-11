@@ -2624,6 +2624,35 @@
     }
   },
   {
+    "id": "AXS",
+    "name": "Axie Infinity",
+    "min_size": "0.01",
+    "status": "online",
+    "message": "",
+    "max_precision": "0.001",
+    "convertible_to": [
+
+    ],
+    "details": {
+      "type": "crypto",
+      "symbol": "",
+      "network_confirmations": 35,
+      "sort_order": 54,
+      "crypto_address_link": "https://etherscan.io/token/0xbb0e17ef65f82ab018d8edd776e8dd940327b28b?a={{address}}",
+      "crypto_transaction_link": "https://etherscan.io/tx/0x{{txId}}",
+      "push_payment_methods": [
+        "crypto"
+      ],
+      "group_types": [
+
+      ],
+      "display_name": "",
+      "processing_time_seconds": 0,
+      "min_withdrawal_amount": 1.0e-18,
+      "max_withdrawal_amount": 30488
+    }
+  },
+  {
     "id": "QUICK",
     "name": "QuickSwap",
     "min_size": "0.001",
@@ -2708,6 +2737,93 @@
       "processing_time_seconds": 0,
       "min_withdrawal_amount": 1.0e-18,
       "max_withdrawal_amount": 500000
+    }
+  },
+  {
+    "id": "REQ",
+    "name": "Request",
+    "min_size": "10",
+    "status": "online",
+    "message": "",
+    "max_precision": "1",
+    "convertible_to": [
+
+    ],
+    "details": {
+      "type": "crypto",
+      "symbol": "",
+      "network_confirmations": 35,
+      "sort_order": 469,
+      "crypto_address_link": "https://etherscan.io/token/0x8f8221afbb33998d8584a2b05749ba73c37a938a?a={{address}}",
+      "crypto_transaction_link": "https://etherscan.io/tx/0x{{txId}}",
+      "push_payment_methods": [
+        "crypto"
+      ],
+      "group_types": [
+
+      ],
+      "display_name": "",
+      "processing_time_seconds": 0,
+      "min_withdrawal_amount": 1.0e-18,
+      "max_withdrawal_amount": 2019712
+    }
+  },
+  {
+    "id": "TRU",
+    "name": "TrueFi",
+    "min_size": "1",
+    "status": "online",
+    "message": "",
+    "max_precision": "0.1",
+    "convertible_to": [
+
+    ],
+    "details": {
+      "type": "crypto",
+      "symbol": "",
+      "network_confirmations": 35,
+      "sort_order": 248,
+      "crypto_address_link": "https://etherscan.io/token/0x4c19596f5aaff459fa38b0f7ed92f11ae6543784?a={{address}}",
+      "crypto_transaction_link": "https://etherscan.io/tx/0x{{txId}}",
+      "push_payment_methods": [
+        "crypto"
+      ],
+      "group_types": [
+
+      ],
+      "display_name": "",
+      "processing_time_seconds": 0,
+      "min_withdrawal_amount": 1.0e-08,
+      "max_withdrawal_amount": 189365
+    }
+  },
+  {
+    "id": "WLUNA",
+    "name": "Wrapped Luna",
+    "min_size": "0.01",
+    "status": "online",
+    "message": "",
+    "max_precision": "0.001",
+    "convertible_to": [
+
+    ],
+    "details": {
+      "type": "crypto",
+      "symbol": "",
+      "network_confirmations": 35,
+      "sort_order": 550,
+      "crypto_address_link": "https://etherscan.io/token/0xd2877702675e6ceb975b4a1dff9fb7baf4c91ea9?a={{address}}",
+      "crypto_transaction_link": "https://etherscan.io/tx/0x{{txId}}",
+      "push_payment_methods": [
+        "crypto"
+      ],
+      "group_types": [
+
+      ],
+      "display_name": "",
+      "processing_time_seconds": 0,
+      "min_withdrawal_amount": 1.0e-18,
+      "max_withdrawal_amount": 8515
     }
   }
 ]
