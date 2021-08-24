@@ -1,5 +1,363 @@
 [
   {
+    "id": "EUR",
+    "name": "Euro",
+    "min_size": "0.01",
+    "status": "online",
+    "message": "",
+    "max_precision": "0.01",
+    "convertible_to": [
+
+    ],
+    "details": {
+      "type": "fiat",
+      "symbol": "€",
+      "network_confirmations": 0,
+      "sort_order": 2,
+      "crypto_address_link": "",
+      "crypto_transaction_link": "",
+      "push_payment_methods": [
+        "sepa_bank_account"
+      ],
+      "group_types": [
+        "fiat",
+        "eur"
+      ],
+      "display_name": "",
+      "processing_time_seconds": 0,
+      "min_withdrawal_amount": 0,
+      "max_withdrawal_amount": 0
+    }
+  },
+  {
+    "id": "GBP",
+    "name": "British Pound",
+    "min_size": "0.01",
+    "status": "online",
+    "message": "",
+    "max_precision": "0.01",
+    "convertible_to": [
+
+    ],
+    "details": {
+      "type": "fiat",
+      "symbol": "£",
+      "network_confirmations": 0,
+      "sort_order": 3,
+      "crypto_address_link": "",
+      "crypto_transaction_link": "",
+      "push_payment_methods": [
+        "uk_bank_account",
+        "swift_lhv",
+        "swift"
+      ],
+      "group_types": [
+        "fiat",
+        "gbp"
+      ],
+      "display_name": "",
+      "processing_time_seconds": 0,
+      "min_withdrawal_amount": 0,
+      "max_withdrawal_amount": 0
+    }
+  },
+  {
+    "id": "USD",
+    "name": "United States Dollar",
+    "min_size": "0.01",
+    "status": "online",
+    "message": "",
+    "max_precision": "0.01",
+    "convertible_to": [
+      "USDC"
+    ],
+    "details": {
+      "type": "fiat",
+      "symbol": "$",
+      "network_confirmations": 0,
+      "sort_order": 1,
+      "crypto_address_link": "",
+      "crypto_transaction_link": "",
+      "push_payment_methods": [
+        "bank_wire",
+        "fedwire",
+        "swift_bank_account",
+        "intra_bank_account"
+      ],
+      "group_types": [
+        "fiat",
+        "usd"
+      ],
+      "display_name": "US Dollar",
+      "processing_time_seconds": 0,
+      "min_withdrawal_amount": 0,
+      "max_withdrawal_amount": 0
+    }
+  },
+  {
+    "id": "BTC",
+    "name": "Bitcoin",
+    "min_size": "0.00000001",
+    "status": "online",
+    "message": "",
+    "max_precision": "0.00000001",
+    "convertible_to": [
+
+    ],
+    "details": {
+      "type": "crypto",
+      "symbol": "₿",
+      "network_confirmations": 3,
+      "sort_order": 20,
+      "crypto_address_link": "https://live.blockcypher.com/btc/address/{{address}}",
+      "crypto_transaction_link": "https://live.blockcypher.com/btc/tx/{{txId}}",
+      "push_payment_methods": [
+        "crypto"
+      ],
+      "group_types": [
+        "btc",
+        "crypto"
+      ],
+      "display_name": "",
+      "processing_time_seconds": 0,
+      "min_withdrawal_amount": 0.0001,
+      "max_withdrawal_amount": 2400
+    }
+  },
+  {
+    "id": "ETH",
+    "name": "Ether",
+    "min_size": "0.00000001",
+    "status": "online",
+    "message": "",
+    "max_precision": "0.00000001",
+    "convertible_to": [
+
+    ],
+    "details": {
+      "type": "crypto",
+      "symbol": "Ξ",
+      "network_confirmations": 35,
+      "sort_order": 25,
+      "crypto_address_link": "https://etherscan.io/address/{{address}}",
+      "crypto_transaction_link": "https://etherscan.io/tx/0x{{txId}}",
+      "push_payment_methods": [
+        "crypto"
+      ],
+      "group_types": [
+        "eth",
+        "crypto"
+      ],
+      "display_name": "",
+      "processing_time_seconds": 0,
+      "min_withdrawal_amount": 0.001,
+      "max_withdrawal_amount": 7450
+    }
+  },
+  {
+    "id": "LTC",
+    "name": "Litecoin",
+    "min_size": "0.00000001",
+    "status": "online",
+    "message": "",
+    "max_precision": "0.00000001",
+    "convertible_to": [
+
+    ],
+    "details": {
+      "type": "crypto",
+      "symbol": "Ł",
+      "network_confirmations": 12,
+      "sort_order": 35,
+      "crypto_address_link": "https://live.blockcypher.com/ltc/address/{{address}}",
+      "crypto_transaction_link": "https://live.blockcypher.com/ltc/tx/{{txId}}",
+      "push_payment_methods": [
+        "crypto"
+      ],
+      "group_types": [
+
+      ],
+      "display_name": "",
+      "processing_time_seconds": 0,
+      "min_withdrawal_amount": 0.001,
+      "max_withdrawal_amount": 54400
+    }
+  },
+  {
+    "id": "BCH",
+    "name": "Bitcoin Cash",
+    "min_size": "0.00000001",
+    "status": "online",
+    "message": "",
+    "max_precision": "0.00000001",
+    "convertible_to": [
+
+    ],
+    "details": {
+      "type": "crypto",
+      "symbol": "₿",
+      "network_confirmations": 12,
+      "sort_order": 40,
+      "crypto_address_link": "https://blockchair.com/bitcoin-cash/address/{{address}}",
+      "crypto_transaction_link": "https://blockchair.com/bitcoin-cash/transaction/{{txId}}",
+      "push_payment_methods": [
+        "crypto"
+      ],
+      "group_types": [
+
+      ],
+      "display_name": "",
+      "processing_time_seconds": 0,
+      "min_withdrawal_amount": 1.0e-05,
+      "max_withdrawal_amount": 10600
+    }
+  },
+  {
+    "id": "ZEC",
+    "name": "Zcash",
+    "min_size": "0.00000001",
+    "status": "online",
+    "message": "",
+    "max_precision": "0.00000001",
+    "convertible_to": [
+
+    ],
+    "details": {
+      "type": "crypto",
+      "symbol": "ᙇ",
+      "network_confirmations": 24,
+      "sort_order": 65,
+      "crypto_address_link": "https://zcash.blockexplorer.com/address/{{address}}",
+      "crypto_transaction_link": "https://zcash.blockexplorer.com/tx/{{txId}}",
+      "push_payment_methods": [
+        "crypto"
+      ],
+      "group_types": [
+
+      ],
+      "display_name": "",
+      "processing_time_seconds": 0,
+      "min_withdrawal_amount": 1.0e-05,
+      "max_withdrawal_amount": 15600
+    }
+  },
+  {
+    "id": "XTZ",
+    "name": "Tezos",
+    "min_size": "0.000001",
+    "status": "online",
+    "message": "",
+    "max_precision": "0.000001",
+    "convertible_to": [
+
+    ],
+    "details": {
+      "type": "crypto",
+      "symbol": "",
+      "network_confirmations": 0,
+      "sort_order": 30,
+      "crypto_address_link": "https://bithomp.com/explorer/{{address}}",
+      "crypto_transaction_link": "",
+      "push_payment_methods": [
+        "crypto"
+      ],
+      "group_types": [
+
+      ],
+      "display_name": "",
+      "processing_time_seconds": 0,
+      "min_withdrawal_amount": 22,
+      "max_withdrawal_amount": 100000
+    }
+  },
+  {
+    "id": "XRP",
+    "name": "XRP",
+    "min_size": "1",
+    "status": "online",
+    "message": "",
+    "max_precision": "0.000001",
+    "convertible_to": [
+
+    ],
+    "details": {
+      "type": "crypto",
+      "symbol": "$",
+      "network_confirmations": 0,
+      "sort_order": 30,
+      "crypto_address_link": "https://bithomp.com/explorer/{{address}}",
+      "crypto_transaction_link": "https://bithomp.com/explorer/{{txId}}",
+      "push_payment_methods": [
+        "crypto"
+      ],
+      "group_types": [
+
+      ],
+      "display_name": "",
+      "processing_time_seconds": 600,
+      "min_withdrawal_amount": 22,
+      "max_withdrawal_amount": 130000
+    }
+  },
+  {
+    "id": "XLM",
+    "name": "Stellar",
+    "min_size": "1",
+    "status": "online",
+    "message": "",
+    "max_precision": "0.0000001",
+    "convertible_to": [
+
+    ],
+    "details": {
+      "type": "crypto",
+      "symbol": "",
+      "network_confirmations": 0,
+      "sort_order": 50,
+      "crypto_address_link": "https://stellar.expert/explorer/public/account/{{address}}",
+      "crypto_transaction_link": "https://stellar.expert/explorer/public/tx/{{txId}}",
+      "push_payment_methods": [
+        "crypto"
+      ],
+      "group_types": [
+
+      ],
+      "display_name": "",
+      "processing_time_seconds": 6,
+      "min_withdrawal_amount": 2,
+      "max_withdrawal_amount": 1538000
+    }
+  },
+  {
+    "id": "EOS",
+    "name": "EOS",
+    "min_size": "0.1",
+    "status": "online",
+    "message": "",
+    "max_precision": "0.0001",
+    "convertible_to": [
+
+    ],
+    "details": {
+      "type": "crypto",
+      "symbol": "",
+      "network_confirmations": 0,
+      "sort_order": 45,
+      "crypto_address_link": "https://www.eosx.io/account/{{address}}",
+      "crypto_transaction_link": "https://www.eosx.io/tx/{{txId}}",
+      "push_payment_methods": [
+        "crypto"
+      ],
+      "group_types": [
+
+      ],
+      "display_name": "",
+      "processing_time_seconds": 360,
+      "min_withdrawal_amount": 1,
+      "max_withdrawal_amount": 50900
+    }
+  },
+  {
     "id": "ALGO",
     "name": "Algorand",
     "min_size": "1",
@@ -58,35 +416,6 @@
     }
   },
   {
-    "id": "OXT",
-    "name": "Orchid",
-    "min_size": "1",
-    "status": "online",
-    "message": "",
-    "max_precision": "0.00000001",
-    "convertible_to": [
-
-    ],
-    "details": {
-      "type": "crypto",
-      "symbol": "",
-      "network_confirmations": 35,
-      "sort_order": 48,
-      "crypto_address_link": "https://etherscan.io/token/0x4575f41308EC1483f3d399aa9a2826d74Da13Deb?a={{address}}",
-      "crypto_transaction_link": "https://etherscan.io/tx/0x{{txId}}",
-      "push_payment_methods": [
-        "crypto"
-      ],
-      "group_types": [
-
-      ],
-      "display_name": "",
-      "processing_time_seconds": 0,
-      "min_withdrawal_amount": 0.01,
-      "max_withdrawal_amount": 500000
-    }
-  },
-  {
     "id": "ATOM",
     "name": "Cosmos",
     "min_size": "1",
@@ -113,6 +442,238 @@
       "processing_time_seconds": 5,
       "min_withdrawal_amount": 0.1,
       "max_withdrawal_amount": 302000
+    }
+  },
+  {
+    "id": "CGLD",
+    "name": "Celo",
+    "min_size": "0.1",
+    "status": "online",
+    "message": "",
+    "max_precision": "0.01",
+    "convertible_to": [
+
+    ],
+    "details": {
+      "type": "crypto",
+      "symbol": "",
+      "network_confirmations": 4,
+      "sort_order": 200,
+      "crypto_address_link": "https://explorer.celo.org/address/{{address}}",
+      "crypto_transaction_link": "https://explorer.celo.org/tx/{{txId}}/token_transfers",
+      "push_payment_methods": [
+        "crypto"
+      ],
+      "group_types": [
+
+      ],
+      "display_name": "",
+      "processing_time_seconds": 0,
+      "min_withdrawal_amount": 0.1,
+      "max_withdrawal_amount": 61250
+    }
+  },
+  {
+    "id": "FIL",
+    "name": "Filecoin",
+    "min_size": "0.01",
+    "status": "online",
+    "message": "",
+    "max_precision": "0.001",
+    "convertible_to": [
+
+    ],
+    "details": {
+      "type": "crypto",
+      "symbol": "",
+      "network_confirmations": 60,
+      "sort_order": 250,
+      "crypto_address_link": "https://filfox.info/en/address/{{address}}",
+      "crypto_transaction_link": "https://filfox.info/en/message/{{txId}}",
+      "push_payment_methods": [
+        "crypto"
+      ],
+      "group_types": [
+
+      ],
+      "display_name": "",
+      "processing_time_seconds": 30,
+      "min_withdrawal_amount": 0,
+      "max_withdrawal_amount": 4000
+    }
+  },
+  {
+    "id": "ADA",
+    "name": "Cardano",
+    "min_size": "1",
+    "status": "online",
+    "message": "",
+    "max_precision": "0.1",
+    "convertible_to": [
+
+    ],
+    "details": {
+      "type": "crypto",
+      "symbol": "",
+      "network_confirmations": 10,
+      "sort_order": 28,
+      "crypto_address_link": "https://explorer.cardano.org/en/address?address={{address}}",
+      "crypto_transaction_link": "",
+      "push_payment_methods": [
+        "crypto"
+      ],
+      "group_types": [
+
+      ],
+      "display_name": "",
+      "processing_time_seconds": 0,
+      "min_withdrawal_amount": 1,
+      "max_withdrawal_amount": 750000
+    }
+  },
+  {
+    "id": "ICP",
+    "name": "Internet Computer",
+    "min_size": "0.01",
+    "status": "online",
+    "message": "We've started accepting ICP deposits.",
+    "max_precision": "0.001",
+    "convertible_to": [
+
+    ],
+    "details": {
+      "type": "crypto",
+      "symbol": "",
+      "network_confirmations": 0,
+      "sort_order": 34,
+      "crypto_address_link": "https://dashboard.internetcomputer.org/account/{{address}}",
+      "crypto_transaction_link": "",
+      "push_payment_methods": [
+        "crypto"
+      ],
+      "group_types": [
+
+      ],
+      "display_name": "",
+      "processing_time_seconds": 0,
+      "min_withdrawal_amount": 0.04,
+      "max_withdrawal_amount": 27000
+    }
+  },
+  {
+    "id": "SOL",
+    "name": "Solana",
+    "min_size": "0.01",
+    "status": "online",
+    "message": "We've started accepting SOL deposits. Trading will begin shortly.",
+    "max_precision": "0.000000001",
+    "convertible_to": [
+
+    ],
+    "details": {
+      "type": "crypto",
+      "symbol": "",
+      "network_confirmations": 31,
+      "sort_order": 31,
+      "crypto_address_link": "https://explorer.solana.com/address/{{address}}",
+      "crypto_transaction_link": "https://explorer.solana.com/tx/{{txId}}",
+      "push_payment_methods": [
+        "crypto"
+      ],
+      "group_types": [
+
+      ],
+      "display_name": "",
+      "processing_time_seconds": 0,
+      "min_withdrawal_amount": 1.12,
+      "max_withdrawal_amount": 9000
+    }
+  },
+  {
+    "id": "DOT",
+    "name": "Polkadot",
+    "min_size": "0.01",
+    "status": "online",
+    "message": "We've started accepting DOT deposits. Trading will begin shortly.",
+    "max_precision": "0.001",
+    "convertible_to": [
+
+    ],
+    "details": {
+      "type": "crypto",
+      "symbol": "",
+      "network_confirmations": 10,
+      "sort_order": 30,
+      "crypto_address_link": "https://polkascan.io/polkadot/account/{{address}}",
+      "crypto_transaction_link": "https://polkascan.io/polkadot/balances/transfer/{{txId}}",
+      "push_payment_methods": [
+        "crypto"
+      ],
+      "group_types": [
+
+      ],
+      "display_name": "",
+      "processing_time_seconds": 0,
+      "min_withdrawal_amount": 1.03,
+      "max_withdrawal_amount": 13000
+    }
+  },
+  {
+    "id": "DOGE",
+    "name": "Dogecoin",
+    "min_size": "1",
+    "status": "online",
+    "message": "",
+    "max_precision": "0.1",
+    "convertible_to": [
+
+    ],
+    "details": {
+      "type": "crypto",
+      "symbol": "",
+      "network_confirmations": 60,
+      "sort_order": 29,
+      "crypto_address_link": "https://dogechain.info/address/{{address}}",
+      "crypto_transaction_link": "",
+      "push_payment_methods": [
+        "crypto"
+      ],
+      "group_types": [
+
+      ],
+      "display_name": "",
+      "processing_time_seconds": 0,
+      "min_withdrawal_amount": 1,
+      "max_withdrawal_amount": 17391300
+    }
+  },
+  {
+    "id": "OXT",
+    "name": "Orchid",
+    "min_size": "1",
+    "status": "online",
+    "message": "",
+    "max_precision": "0.00000001",
+    "convertible_to": [
+
+    ],
+    "details": {
+      "type": "crypto",
+      "symbol": "",
+      "network_confirmations": 35,
+      "sort_order": 48,
+      "crypto_address_link": "https://etherscan.io/token/0x4575f41308EC1483f3d399aa9a2826d74Da13Deb?a={{address}}",
+      "crypto_transaction_link": "https://etherscan.io/tx/0x{{txId}}",
+      "push_payment_methods": [
+        "crypto"
+      ],
+      "group_types": [
+
+      ],
+      "display_name": "",
+      "processing_time_seconds": 0,
+      "min_withdrawal_amount": 0.01,
+      "max_withdrawal_amount": 500000
     }
   },
   {
@@ -200,64 +761,6 @@
       "processing_time_seconds": 0,
       "min_withdrawal_amount": 0.01,
       "max_withdrawal_amount": 7750
-    }
-  },
-  {
-    "id": "ICP",
-    "name": "Internet Computer",
-    "min_size": "0.01",
-    "status": "online",
-    "message": "We've started accepting ICP deposits.",
-    "max_precision": "0.001",
-    "convertible_to": [
-
-    ],
-    "details": {
-      "type": "crypto",
-      "symbol": "",
-      "network_confirmations": 0,
-      "sort_order": 34,
-      "crypto_address_link": "https://dashboard.internetcomputer.org/account/{{address}}",
-      "crypto_transaction_link": "",
-      "push_payment_methods": [
-        "crypto"
-      ],
-      "group_types": [
-
-      ],
-      "display_name": "",
-      "processing_time_seconds": 0,
-      "min_withdrawal_amount": 0.04,
-      "max_withdrawal_amount": 27000
-    }
-  },
-  {
-    "id": "CGLD",
-    "name": "Celo",
-    "min_size": "0.1",
-    "status": "online",
-    "message": "",
-    "max_precision": "0.01",
-    "convertible_to": [
-
-    ],
-    "details": {
-      "type": "crypto",
-      "symbol": "",
-      "network_confirmations": 4,
-      "sort_order": 200,
-      "crypto_address_link": "https://explorer.celo.org/address/{{address}}",
-      "crypto_transaction_link": "https://explorer.celo.org/tx/{{txId}}/token_transfers",
-      "push_payment_methods": [
-        "crypto"
-      ],
-      "group_types": [
-
-      ],
-      "display_name": "",
-      "processing_time_seconds": 0,
-      "min_withdrawal_amount": 0.1,
-      "max_withdrawal_amount": 61250
     }
   },
   {
@@ -374,64 +877,6 @@
       "processing_time_seconds": 0,
       "min_withdrawal_amount": 0.2,
       "max_withdrawal_amount": 37500
-    }
-  },
-  {
-    "id": "XLM",
-    "name": "Stellar",
-    "min_size": "1",
-    "status": "online",
-    "message": "",
-    "max_precision": "0.0000001",
-    "convertible_to": [
-
-    ],
-    "details": {
-      "type": "crypto",
-      "symbol": "",
-      "network_confirmations": 0,
-      "sort_order": 50,
-      "crypto_address_link": "https://stellar.expert/explorer/public/account/{{address}}",
-      "crypto_transaction_link": "https://stellar.expert/explorer/public/tx/{{txId}}",
-      "push_payment_methods": [
-        "crypto"
-      ],
-      "group_types": [
-
-      ],
-      "display_name": "",
-      "processing_time_seconds": 6,
-      "min_withdrawal_amount": 2,
-      "max_withdrawal_amount": 1538000
-    }
-  },
-  {
-    "id": "EOS",
-    "name": "EOS",
-    "min_size": "0.1",
-    "status": "online",
-    "message": "",
-    "max_precision": "0.0001",
-    "convertible_to": [
-
-    ],
-    "details": {
-      "type": "crypto",
-      "symbol": "",
-      "network_confirmations": 0,
-      "sort_order": 45,
-      "crypto_address_link": "https://www.eosx.io/account/{{address}}",
-      "crypto_transaction_link": "https://www.eosx.io/tx/{{txId}}",
-      "push_payment_methods": [
-        "crypto"
-      ],
-      "group_types": [
-
-      ],
-      "display_name": "",
-      "processing_time_seconds": 360,
-      "min_withdrawal_amount": 1,
-      "max_withdrawal_amount": 50900
     }
   },
   {
@@ -783,36 +1228,6 @@
     }
   },
   {
-    "id": "BTC",
-    "name": "Bitcoin",
-    "min_size": "0.00000001",
-    "status": "online",
-    "message": "",
-    "max_precision": "0.00000001",
-    "convertible_to": [
-
-    ],
-    "details": {
-      "type": "crypto",
-      "symbol": "₿",
-      "network_confirmations": 3,
-      "sort_order": 20,
-      "crypto_address_link": "https://live.blockcypher.com/btc/address/{{address}}",
-      "crypto_transaction_link": "https://live.blockcypher.com/btc/tx/{{txId}}",
-      "push_payment_methods": [
-        "crypto"
-      ],
-      "group_types": [
-        "btc",
-        "crypto"
-      ],
-      "display_name": "",
-      "processing_time_seconds": 0,
-      "min_withdrawal_amount": 0.0001,
-      "max_withdrawal_amount": 2400
-    }
-  },
-  {
     "id": "BAL",
     "name": "Balancer",
     "min_size": "0.1",
@@ -839,189 +1254,6 @@
       "processing_time_seconds": 0,
       "min_withdrawal_amount": 0.38,
       "max_withdrawal_amount": 6500
-    }
-  },
-  {
-    "id": "EUR",
-    "name": "Euro",
-    "min_size": "0.01",
-    "status": "online",
-    "message": "",
-    "max_precision": "0.01",
-    "convertible_to": [
-
-    ],
-    "details": {
-      "type": "fiat",
-      "symbol": "€",
-      "network_confirmations": 0,
-      "sort_order": 2,
-      "crypto_address_link": "",
-      "crypto_transaction_link": "",
-      "push_payment_methods": [
-        "sepa_bank_account"
-      ],
-      "group_types": [
-        "fiat",
-        "eur"
-      ],
-      "display_name": "",
-      "processing_time_seconds": 0,
-      "min_withdrawal_amount": 0,
-      "max_withdrawal_amount": 0
-    }
-  },
-  {
-    "id": "LTC",
-    "name": "Litecoin",
-    "min_size": "0.00000001",
-    "status": "online",
-    "message": "",
-    "max_precision": "0.00000001",
-    "convertible_to": [
-
-    ],
-    "details": {
-      "type": "crypto",
-      "symbol": "Ł",
-      "network_confirmations": 12,
-      "sort_order": 35,
-      "crypto_address_link": "https://live.blockcypher.com/ltc/address/{{address}}",
-      "crypto_transaction_link": "https://live.blockcypher.com/ltc/tx/{{txId}}",
-      "push_payment_methods": [
-        "crypto"
-      ],
-      "group_types": [
-
-      ],
-      "display_name": "",
-      "processing_time_seconds": 0,
-      "min_withdrawal_amount": 0.001,
-      "max_withdrawal_amount": 54400
-    }
-  },
-  {
-    "id": "GBP",
-    "name": "British Pound",
-    "min_size": "0.01",
-    "status": "online",
-    "message": "",
-    "max_precision": "0.01",
-    "convertible_to": [
-
-    ],
-    "details": {
-      "type": "fiat",
-      "symbol": "£",
-      "network_confirmations": 0,
-      "sort_order": 3,
-      "crypto_address_link": "",
-      "crypto_transaction_link": "",
-      "push_payment_methods": [
-        "uk_bank_account",
-        "swift_lhv",
-        "swift"
-      ],
-      "group_types": [
-        "fiat",
-        "gbp"
-      ],
-      "display_name": "",
-      "processing_time_seconds": 0,
-      "min_withdrawal_amount": 0,
-      "max_withdrawal_amount": 0
-    }
-  },
-  {
-    "id": "USD",
-    "name": "United States Dollar",
-    "min_size": "0.01",
-    "status": "online",
-    "message": "",
-    "max_precision": "0.01",
-    "convertible_to": [
-      "USDC"
-    ],
-    "details": {
-      "type": "fiat",
-      "symbol": "$",
-      "network_confirmations": 0,
-      "sort_order": 1,
-      "crypto_address_link": "",
-      "crypto_transaction_link": "",
-      "push_payment_methods": [
-        "bank_wire",
-        "fedwire",
-        "swift_bank_account",
-        "intra_bank_account"
-      ],
-      "group_types": [
-        "fiat",
-        "usd"
-      ],
-      "display_name": "US Dollar",
-      "processing_time_seconds": 0,
-      "min_withdrawal_amount": 0,
-      "max_withdrawal_amount": 0
-    }
-  },
-  {
-    "id": "ETH",
-    "name": "Ether",
-    "min_size": "0.00000001",
-    "status": "online",
-    "message": "",
-    "max_precision": "0.00000001",
-    "convertible_to": [
-
-    ],
-    "details": {
-      "type": "crypto",
-      "symbol": "Ξ",
-      "network_confirmations": 35,
-      "sort_order": 25,
-      "crypto_address_link": "https://etherscan.io/address/{{address}}",
-      "crypto_transaction_link": "https://etherscan.io/tx/0x{{txId}}",
-      "push_payment_methods": [
-        "crypto"
-      ],
-      "group_types": [
-        "eth",
-        "crypto"
-      ],
-      "display_name": "",
-      "processing_time_seconds": 0,
-      "min_withdrawal_amount": 0.001,
-      "max_withdrawal_amount": 7450
-    }
-  },
-  {
-    "id": "BCH",
-    "name": "Bitcoin Cash",
-    "min_size": "0.00000001",
-    "status": "online",
-    "message": "",
-    "max_precision": "0.00000001",
-    "convertible_to": [
-
-    ],
-    "details": {
-      "type": "crypto",
-      "symbol": "₿",
-      "network_confirmations": 12,
-      "sort_order": 40,
-      "crypto_address_link": "https://blockchair.com/bitcoin-cash/address/{{address}}",
-      "crypto_transaction_link": "https://blockchair.com/bitcoin-cash/transaction/{{txId}}",
-      "push_payment_methods": [
-        "crypto"
-      ],
-      "group_types": [
-
-      ],
-      "display_name": "",
-      "processing_time_seconds": 0,
-      "min_withdrawal_amount": 1.0e-05,
-      "max_withdrawal_amount": 10600
     }
   },
   {
@@ -1082,35 +1314,6 @@
       "processing_time_seconds": 0,
       "min_withdrawal_amount": 0.001,
       "max_withdrawal_amount": 15000000
-    }
-  },
-  {
-    "id": "ZEC",
-    "name": "Zcash",
-    "min_size": "0.00000001",
-    "status": "online",
-    "message": "",
-    "max_precision": "0.00000001",
-    "convertible_to": [
-
-    ],
-    "details": {
-      "type": "crypto",
-      "symbol": "ᙇ",
-      "network_confirmations": 24,
-      "sort_order": 65,
-      "crypto_address_link": "https://zcash.blockexplorer.com/address/{{address}}",
-      "crypto_transaction_link": "https://zcash.blockexplorer.com/tx/{{txId}}",
-      "push_payment_methods": [
-        "crypto"
-      ],
-      "group_types": [
-
-      ],
-      "display_name": "",
-      "processing_time_seconds": 0,
-      "min_withdrawal_amount": 1.0e-05,
-      "max_withdrawal_amount": 15600
     }
   },
   {
@@ -1229,35 +1432,6 @@
       "processing_time_seconds": 0,
       "min_withdrawal_amount": 0,
       "max_withdrawal_amount": 2180000
-    }
-  },
-  {
-    "id": "FIL",
-    "name": "Filecoin",
-    "min_size": "0.01",
-    "status": "online",
-    "message": "",
-    "max_precision": "0.001",
-    "convertible_to": [
-
-    ],
-    "details": {
-      "type": "crypto",
-      "symbol": "",
-      "network_confirmations": 60,
-      "sort_order": 250,
-      "crypto_address_link": "https://filfox.info/en/address/{{address}}",
-      "crypto_transaction_link": "https://filfox.info/en/message/{{txId}}",
-      "push_payment_methods": [
-        "crypto"
-      ],
-      "group_types": [
-
-      ],
-      "display_name": "",
-      "processing_time_seconds": 30,
-      "min_withdrawal_amount": 0,
-      "max_withdrawal_amount": 4000
     }
   },
   {
@@ -1783,64 +1957,6 @@
     }
   },
   {
-    "id": "XRP",
-    "name": "XRP",
-    "min_size": "1",
-    "status": "online",
-    "message": "",
-    "max_precision": "0.000001",
-    "convertible_to": [
-
-    ],
-    "details": {
-      "type": "crypto",
-      "symbol": "$",
-      "network_confirmations": 0,
-      "sort_order": 30,
-      "crypto_address_link": "https://bithomp.com/explorer/{{address}}",
-      "crypto_transaction_link": "https://bithomp.com/explorer/{{txId}}",
-      "push_payment_methods": [
-        "crypto"
-      ],
-      "group_types": [
-
-      ],
-      "display_name": "",
-      "processing_time_seconds": 600,
-      "min_withdrawal_amount": 22,
-      "max_withdrawal_amount": 130000
-    }
-  },
-  {
-    "id": "XTZ",
-    "name": "Tezos",
-    "min_size": "0.000001",
-    "status": "online",
-    "message": "",
-    "max_precision": "0.000001",
-    "convertible_to": [
-
-    ],
-    "details": {
-      "type": "crypto",
-      "symbol": "",
-      "network_confirmations": 0,
-      "sort_order": 30,
-      "crypto_address_link": "https://bithomp.com/explorer/{{address}}",
-      "crypto_transaction_link": "",
-      "push_payment_methods": [
-        "crypto"
-      ],
-      "group_types": [
-
-      ],
-      "display_name": "",
-      "processing_time_seconds": 0,
-      "min_withdrawal_amount": 22,
-      "max_withdrawal_amount": 100000
-    }
-  },
-  {
     "id": "CTSI",
     "name": "Cartesi",
     "min_size": "1",
@@ -1928,64 +2044,6 @@
     }
   },
   {
-    "id": "DOGE",
-    "name": "Dogecoin",
-    "min_size": "1",
-    "status": "online",
-    "message": "",
-    "max_precision": "0.1",
-    "convertible_to": [
-
-    ],
-    "details": {
-      "type": "crypto",
-      "symbol": "",
-      "network_confirmations": 60,
-      "sort_order": 29,
-      "crypto_address_link": "https://dogechain.info/address/{{address}}",
-      "crypto_transaction_link": "",
-      "push_payment_methods": [
-        "crypto"
-      ],
-      "group_types": [
-
-      ],
-      "display_name": "",
-      "processing_time_seconds": 0,
-      "min_withdrawal_amount": 1,
-      "max_withdrawal_amount": 17391300
-    }
-  },
-  {
-    "id": "ADA",
-    "name": "Cardano",
-    "min_size": "1",
-    "status": "online",
-    "message": "",
-    "max_precision": "0.1",
-    "convertible_to": [
-
-    ],
-    "details": {
-      "type": "crypto",
-      "symbol": "",
-      "network_confirmations": 10,
-      "sort_order": 28,
-      "crypto_address_link": "https://explorer.cardano.org/en/address?address={{address}}",
-      "crypto_transaction_link": "",
-      "push_payment_methods": [
-        "crypto"
-      ],
-      "group_types": [
-
-      ],
-      "display_name": "",
-      "processing_time_seconds": 0,
-      "min_withdrawal_amount": 1,
-      "max_withdrawal_amount": 750000
-    }
-  },
-  {
     "id": "USDT",
     "name": "Tether",
     "min_size": "1",
@@ -2012,35 +2070,6 @@
       "processing_time_seconds": 0,
       "min_withdrawal_amount": 13,
       "max_withdrawal_amount": 10000000
-    }
-  },
-  {
-    "id": "DOT",
-    "name": "Polkadot",
-    "min_size": "0.01",
-    "status": "online",
-    "message": "We've started accepting DOT deposits. Trading will begin shortly.",
-    "max_precision": "0.001",
-    "convertible_to": [
-
-    ],
-    "details": {
-      "type": "crypto",
-      "symbol": "",
-      "network_confirmations": 10,
-      "sort_order": 30,
-      "crypto_address_link": "https://polkascan.io/polkadot/account/{{address}}",
-      "crypto_transaction_link": "https://polkascan.io/polkadot/balances/transfer/{{txId}}",
-      "push_payment_methods": [
-        "crypto"
-      ],
-      "group_types": [
-
-      ],
-      "display_name": "",
-      "processing_time_seconds": 0,
-      "min_withdrawal_amount": 1.03,
-      "max_withdrawal_amount": 13000
     }
   },
   {
@@ -2099,35 +2128,6 @@
       "processing_time_seconds": 0,
       "min_withdrawal_amount": 1.0e-18,
       "max_withdrawal_amount": 13213531000
-    }
-  },
-  {
-    "id": "SOL",
-    "name": "Solana",
-    "min_size": "0.01",
-    "status": "online",
-    "message": "We've started accepting SOL deposits. Trading will begin shortly.",
-    "max_precision": "0.000000001",
-    "convertible_to": [
-
-    ],
-    "details": {
-      "type": "crypto",
-      "symbol": "",
-      "network_confirmations": 31,
-      "sort_order": 31,
-      "crypto_address_link": "https://explorer.solana.com/address/{{address}}",
-      "crypto_transaction_link": "https://explorer.solana.com/tx/{{txId}}",
-      "push_payment_methods": [
-        "crypto"
-      ],
-      "group_types": [
-
-      ],
-      "display_name": "",
-      "processing_time_seconds": 0,
-      "min_withdrawal_amount": 1.12,
-      "max_withdrawal_amount": 9000
     }
   },
   {
