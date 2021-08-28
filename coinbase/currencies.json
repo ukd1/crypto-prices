@@ -1298,7 +1298,7 @@
     "details": {
       "type": "crypto",
       "symbol": "⟠",
-      "network_confirmations": 10000,
+      "network_confirmations": 20000,
       "sort_order": 55,
       "crypto_address_link": "https://gastracker.io/addr/{{address}}",
       "crypto_transaction_link": "https://gastracker.io/tx/0x{{txId}}",
