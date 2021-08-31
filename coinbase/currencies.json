@@ -29,6 +29,64 @@
     }
   },
   {
+    "id": "DDX",
+    "name": "DerivaDAO",
+    "min_size": "0.1",
+    "status": "online",
+    "message": "",
+    "max_precision": "0.01",
+    "convertible_to": [
+
+    ],
+    "details": {
+      "type": "crypto",
+      "symbol": "",
+      "network_confirmations": 35,
+      "sort_order": 372,
+      "crypto_address_link": "https://etherscan.io/token/0x3a880652f47bfaa771908c07dd8673a787daed3a?a={{address}}",
+      "crypto_transaction_link": "https://etherscan.io/tx/0x{{txId}}",
+      "push_payment_methods": [
+        "crypto"
+      ],
+      "group_types": [
+
+      ],
+      "display_name": "",
+      "processing_time_seconds": 0,
+      "min_withdrawal_amount": 1.0e-18,
+      "max_withdrawal_amount": 31250
+    }
+  },
+  {
+    "id": "RAD",
+    "name": "Radicle",
+    "min_size": "0.1",
+    "status": "online",
+    "message": "",
+    "max_precision": "0.01",
+    "convertible_to": [
+
+    ],
+    "details": {
+      "type": "crypto",
+      "symbol": "",
+      "network_confirmations": 35,
+      "sort_order": 240,
+      "crypto_address_link": "https://etherscan.io/token/0x31c8eacbffdd875c74b94b077895bd78cf1e64a3?a={{address}}",
+      "crypto_transaction_link": "https://etherscan.io/tx/0x{{txId}}",
+      "push_payment_methods": [
+        "crypto"
+      ],
+      "group_types": [
+
+      ],
+      "display_name": "",
+      "processing_time_seconds": 0,
+      "min_withdrawal_amount": 1.0e-18,
+      "max_withdrawal_amount": 17000
+    }
+  },
+  {
     "id": "EUR",
     "name": "Euro",
     "min_size": "0.01",
@@ -2853,6 +2911,35 @@
       "processing_time_seconds": 0,
       "min_withdrawal_amount": 1.0e-18,
       "max_withdrawal_amount": 8515
+    }
+  },
+  {
+    "id": "YFII",
+    "name": "DFI.Money",
+    "min_size": "0.0001",
+    "status": "online",
+    "message": "",
+    "max_precision": "0.00000001",
+    "convertible_to": [
+
+    ],
+    "details": {
+      "type": "crypto",
+      "symbol": "",
+      "network_confirmations": 35,
+      "sort_order": 245,
+      "crypto_address_link": "https://etherscan.io/token/0xa1d0E215a23d7030842FC67cE582a6aFa3CCaB83?a={{address}}",
+      "crypto_transaction_link": "https://etherscan.io/tx/0x{{txId}}",
+      "push_payment_methods": [
+        "crypto"
+      ],
+      "group_types": [
+
+      ],
+      "display_name": "",
+      "processing_time_seconds": 0,
+      "min_withdrawal_amount": 0,
+      "max_withdrawal_amount": 150
     }
   }
 ]
