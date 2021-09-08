@@ -1,5 +1,63 @@
 [
   {
+    "id": "XYO",
+    "name": "XYO Network",
+    "min_size": "100",
+    "status": "online",
+    "message": "",
+    "max_precision": "0.1",
+    "convertible_to": [
+
+    ],
+    "details": {
+      "type": "crypto",
+      "symbol": "",
+      "network_confirmations": 35,
+      "sort_order": 413,
+      "crypto_address_link": "https://etherscan.io/token/0x55296f69f40ea6d20e478533c15a6b08b654e758?a={{address}}",
+      "crypto_transaction_link": "https://etherscan.io/tx/0x{{txId}}",
+      "push_payment_methods": [
+        "crypto"
+      ],
+      "group_types": [
+
+      ],
+      "display_name": "",
+      "processing_time_seconds": 0,
+      "min_withdrawal_amount": 1.0e-18,
+      "max_withdrawal_amount": 2770000
+    }
+  },
+  {
+    "id": "RGT",
+    "name": "Rari Governance Token",
+    "min_size": "0.01",
+    "status": "online",
+    "message": "",
+    "max_precision": "0.001",
+    "convertible_to": [
+
+    ],
+    "details": {
+      "type": "crypto",
+      "symbol": "",
+      "network_confirmations": 35,
+      "sort_order": 429,
+      "crypto_address_link": "https://etherscan.io/token/0xd291e7a03283640fdc51b121ac401383a46cc623?a={{address}}",
+      "crypto_transaction_link": "https://etherscan.io/tx/0x{{txId}}",
+      "push_payment_methods": [
+        "crypto"
+      ],
+      "group_types": [
+
+      ],
+      "display_name": "",
+      "processing_time_seconds": 0,
+      "min_withdrawal_amount": 1.0e-18,
+      "max_withdrawal_amount": 2000
+    }
+  },
+  {
     "id": "COTI",
     "name": "COTI",
     "min_size": "1",
