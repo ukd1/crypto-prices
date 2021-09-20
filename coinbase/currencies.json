@@ -203,6 +203,35 @@
     }
   },
   {
+    "id": "AGLD",
+    "name": "Adventure Gold",
+    "min_size": "0.1",
+    "status": "online",
+    "message": "",
+    "max_precision": "0.01",
+    "convertible_to": [
+
+    ],
+    "details": {
+      "type": "crypto",
+      "symbol": "",
+      "network_confirmations": 35,
+      "sort_order": 308,
+      "crypto_address_link": "https://etherscan.io/token/0x32353a6c91143bfd6c7d363b546e62a9a2489a20?a={{address}}",
+      "crypto_transaction_link": "https://etherscan.io/tx/0x{{txId}}",
+      "push_payment_methods": [
+        "crypto"
+      ],
+      "group_types": [
+
+      ],
+      "display_name": "",
+      "processing_time_seconds": 0,
+      "min_withdrawal_amount": 1.0e-18,
+      "max_withdrawal_amount": 100000
+    }
+  },
+  {
     "id": "EUR",
     "name": "Euro",
     "min_size": "0.01",
