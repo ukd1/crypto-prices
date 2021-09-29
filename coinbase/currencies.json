@@ -232,6 +232,35 @@
     }
   },
   {
+    "id": "AVAX",
+    "name": "Avalanche",
+    "min_size": "0.01",
+    "status": "online",
+    "message": "",
+    "max_precision": "0.001",
+    "convertible_to": [
+
+    ],
+    "details": {
+      "type": "crypto",
+      "symbol": "",
+      "network_confirmations": 0,
+      "sort_order": 30,
+      "crypto_address_link": "https://explorer.avax.network/address/{{address}}",
+      "crypto_transaction_link": "https://explorer.avax.network/tx/{{txId}}",
+      "push_payment_methods": [
+        "crypto"
+      ],
+      "group_types": [
+
+      ],
+      "display_name": "",
+      "processing_time_seconds": 0,
+      "min_withdrawal_amount": 0.1,
+      "max_withdrawal_amount": 25575
+    }
+  },
+  {
     "id": "EUR",
     "name": "Euro",
     "min_size": "0.01",
