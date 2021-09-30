@@ -244,10 +244,10 @@
     "details": {
       "type": "crypto",
       "symbol": "",
-      "network_confirmations": 0,
+      "network_confirmations": 1,
       "sort_order": 30,
-      "crypto_address_link": "https://explorer.avax.network/address/{{address}}",
-      "crypto_transaction_link": "https://explorer.avax.network/tx/{{txId}}",
+      "crypto_address_link": "https://cchain.explorer.avax.network/address/{{address}}/transactions",
+      "crypto_transaction_link": "https://cchain.explorer.avax.network/tx/{{txId}}/token-transfers",
       "push_payment_methods": [
         "crypto"
       ],
