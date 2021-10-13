@@ -261,6 +261,35 @@
     }
   },
   {
+    "id": "RARI",
+    "name": "Rarible",
+    "min_size": "0.01",
+    "status": "online",
+    "message": "",
+    "max_precision": "0.001",
+    "convertible_to": [
+
+    ],
+    "details": {
+      "type": "crypto",
+      "symbol": "",
+      "network_confirmations": 35,
+      "sort_order": 400,
+      "crypto_address_link": "https://etherscan.io/token/0xfca59cd816ab1ead66534d82bc21e7515ce441cf?a={{address}}",
+      "crypto_transaction_link": "https://etherscan.io/tx/0x{{txId}}",
+      "push_payment_methods": [
+        "crypto"
+      ],
+      "group_types": [
+
+      ],
+      "display_name": "",
+      "processing_time_seconds": 0,
+      "min_withdrawal_amount": 1.0e-18,
+      "max_withdrawal_amount": 6050
+    }
+  },
+  {
     "id": "JASMY",
     "name": "JasmyCoin",
     "min_size": "10",
@@ -374,6 +403,35 @@
       "processing_time_seconds": 0,
       "min_withdrawal_amount": 1.0e-18,
       "max_withdrawal_amount": 35920
+    }
+  },
+  {
+    "id": "BADGER",
+    "name": "Badger DAO",
+    "min_size": "0.01",
+    "status": "online",
+    "message": "",
+    "max_precision": "0.001",
+    "convertible_to": [
+
+    ],
+    "details": {
+      "type": "crypto",
+      "symbol": "",
+      "network_confirmations": 35,
+      "sort_order": 288,
+      "crypto_address_link": "https://etherscan.io/token/0x3472a5a71965499acd81997a54bba8d852c6e53d?a={{address}}",
+      "crypto_transaction_link": "https://etherscan.io/tx/0x{{txId}}",
+      "push_payment_methods": [
+        "crypto"
+      ],
+      "group_types": [
+
+      ],
+      "display_name": "",
+      "processing_time_seconds": 0,
+      "min_withdrawal_amount": 1.0e-18,
+      "max_withdrawal_amount": 5000
     }
   },
   {
