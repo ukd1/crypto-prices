@@ -116,35 +116,6 @@
     }
   },
   {
-    "id": "ZEN",
-    "name": "Horizen",
-    "min_size": "0.01",
-    "status": "online",
-    "message": "",
-    "max_precision": "0.001",
-    "convertible_to": [
-
-    ],
-    "details": {
-      "type": "crypto",
-      "symbol": "",
-      "network_confirmations": 12,
-      "sort_order": 98,
-      "crypto_address_link": "https://explorer.horizen.global/address/{{address}}",
-      "crypto_transaction_link": "https://explorer.horizen.global/tx/{{txId}}",
-      "push_payment_methods": [
-        "crypto"
-      ],
-      "group_types": [
-
-      ],
-      "display_name": "",
-      "processing_time_seconds": 0,
-      "min_withdrawal_amount": 0.02,
-      "max_withdrawal_amount": 4300
-    }
-  },
-  {
     "id": "BTRST",
     "name": "Braintrust",
     "min_size": "1",
@@ -229,64 +200,6 @@
       "processing_time_seconds": 0,
       "min_withdrawal_amount": 1.0e-18,
       "max_withdrawal_amount": 6050
-    }
-  },
-  {
-    "id": "JASMY",
-    "name": "JasmyCoin",
-    "min_size": "10",
-    "status": "online",
-    "message": "",
-    "max_precision": "1",
-    "convertible_to": [
-
-    ],
-    "details": {
-      "type": "crypto",
-      "symbol": "",
-      "network_confirmations": 35,
-      "sort_order": 520,
-      "crypto_address_link": "https://etherscan.io/token/0x7420b4b9a0110cdc71fb720908340c03f9bc03ec?a={{address}}",
-      "crypto_transaction_link": "https://etherscan.io/tx/0x{{txId}}",
-      "push_payment_methods": [
-        "crypto"
-      ],
-      "group_types": [
-
-      ],
-      "display_name": "",
-      "processing_time_seconds": 0,
-      "min_withdrawal_amount": 1.0e-18,
-      "max_withdrawal_amount": 8333333
-    }
-  },
-  {
-    "id": "TBTC",
-    "name": "TBTC",
-    "min_size": "0.00001",
-    "status": "online",
-    "message": "",
-    "max_precision": "0.000001",
-    "convertible_to": [
-
-    ],
-    "details": {
-      "type": "crypto",
-      "symbol": "",
-      "network_confirmations": 35,
-      "sort_order": 634,
-      "crypto_address_link": "https://etherscan.io/token/0x8daebade922df735c38c80c7ebd708af50815faa?a={{address}}",
-      "crypto_transaction_link": "https://etherscan.io/tx/0x{{txId}}",
-      "push_payment_methods": [
-        "crypto"
-      ],
-      "group_types": [
-
-      ],
-      "display_name": "",
-      "processing_time_seconds": 0,
-      "min_withdrawal_amount": 1.0e-18,
-      "max_withdrawal_amount": 3
     }
   },
   {
@@ -406,6 +319,35 @@
     }
   },
   {
+    "id": "JASMY",
+    "name": "JasmyCoin",
+    "min_size": "10",
+    "status": "online",
+    "message": "",
+    "max_precision": "1",
+    "convertible_to": [
+
+    ],
+    "details": {
+      "type": "crypto",
+      "symbol": "",
+      "network_confirmations": 35,
+      "sort_order": 520,
+      "crypto_address_link": "https://etherscan.io/token/0x7420b4b9a0110cdc71fb720908340c03f9bc03ec?a={{address}}",
+      "crypto_transaction_link": "https://etherscan.io/tx/0x{{txId}}",
+      "push_payment_methods": [
+        "crypto"
+      ],
+      "group_types": [
+
+      ],
+      "display_name": "",
+      "processing_time_seconds": 0,
+      "min_withdrawal_amount": 1.0e-18,
+      "max_withdrawal_amount": 5000000
+    }
+  },
+  {
     "id": "BADGER",
     "name": "Badger DAO",
     "min_size": "0.01",
@@ -432,6 +374,64 @@
       "processing_time_seconds": 0,
       "min_withdrawal_amount": 1.0e-18,
       "max_withdrawal_amount": 5000
+    }
+  },
+  {
+    "id": "ZEN",
+    "name": "Horizen",
+    "min_size": "0.01",
+    "status": "online",
+    "message": "",
+    "max_precision": "0.001",
+    "convertible_to": [
+
+    ],
+    "details": {
+      "type": "crypto",
+      "symbol": "",
+      "network_confirmations": 12,
+      "sort_order": 98,
+      "crypto_address_link": "https://explorer.horizen.global/address/{{address}}",
+      "crypto_transaction_link": "https://explorer.horizen.global/tx/{{txId}}",
+      "push_payment_methods": [
+        "crypto"
+      ],
+      "group_types": [
+
+      ],
+      "display_name": "",
+      "processing_time_seconds": 0,
+      "min_withdrawal_amount": 0.02,
+      "max_withdrawal_amount": 4354.75
+    }
+  },
+  {
+    "id": "TBTC",
+    "name": "TBTC",
+    "min_size": "0.00001",
+    "status": "online",
+    "message": "",
+    "max_precision": "0.000001",
+    "convertible_to": [
+
+    ],
+    "details": {
+      "type": "crypto",
+      "symbol": "",
+      "network_confirmations": 35,
+      "sort_order": 634,
+      "crypto_address_link": "https://etherscan.io/token/0x8daebade922df735c38c80c7ebd708af50815faa?a={{address}}",
+      "crypto_transaction_link": "https://etherscan.io/tx/0x{{txId}}",
+      "push_payment_methods": [
+        "crypto"
+      ],
+      "group_types": [
+
+      ],
+      "display_name": "",
+      "processing_time_seconds": 0,
+      "min_withdrawal_amount": 1.0e-18,
+      "max_withdrawal_amount": 1
     }
   },
   {
@@ -1112,93 +1112,6 @@
     }
   },
   {
-    "id": "ACH",
-    "name": "Alchemy Pay",
-    "min_size": "0.1",
-    "status": "online",
-    "message": "",
-    "max_precision": "100",
-    "convertible_to": [
-
-    ],
-    "details": {
-      "type": "crypto",
-      "symbol": "",
-      "network_confirmations": 35,
-      "sort_order": 1356,
-      "crypto_address_link": "https://etherscan.io/token/0xed04915c23f00a313a544955524eb7dbd823143d?a={{address}}",
-      "crypto_transaction_link": "https://etherscan.io/tx/0x{{txId}}",
-      "push_payment_methods": [
-        "crypto"
-      ],
-      "group_types": [
-
-      ],
-      "display_name": "",
-      "processing_time_seconds": 0,
-      "min_withdrawal_amount": 1.0e-08,
-      "max_withdrawal_amount": 83250000
-    }
-  },
-  {
-    "id": "BAND",
-    "name": "Band Protocol",
-    "min_size": "0.1",
-    "status": "online",
-    "message": "",
-    "max_precision": "0.01",
-    "convertible_to": [
-
-    ],
-    "details": {
-      "type": "crypto",
-      "symbol": "",
-      "network_confirmations": 35,
-      "sort_order": 160,
-      "crypto_address_link": "https://etherscan.io/token/0xba11d00c5f74255f56a5e366f4f77f5a186d7f55?a={{address}}",
-      "crypto_transaction_link": "https://etherscan.io/tx/0x{{txId}}",
-      "push_payment_methods": [
-        "crypto"
-      ],
-      "group_types": [
-
-      ],
-      "display_name": "",
-      "processing_time_seconds": 0,
-      "min_withdrawal_amount": 0.2,
-      "max_withdrawal_amount": 37500
-    }
-  },
-  {
-    "id": "BAT",
-    "name": "Basic Attention Token",
-    "min_size": "1",
-    "status": "online",
-    "message": "",
-    "max_precision": "0.00000001",
-    "convertible_to": [
-
-    ],
-    "details": {
-      "type": "crypto",
-      "symbol": "Ξ",
-      "network_confirmations": 35,
-      "sort_order": 70,
-      "crypto_address_link": "https://etherscan.io/token/0x0d8775f648430679a709e98d2b0cb6250d2887ef?a={{address}}",
-      "crypto_transaction_link": "https://etherscan.io/tx/0x{{txId}}",
-      "push_payment_methods": [
-        "crypto"
-      ],
-      "group_types": [
-
-      ],
-      "display_name": "",
-      "processing_time_seconds": 0,
-      "min_withdrawal_amount": 0.01,
-      "max_withdrawal_amount": 350000
-    }
-  },
-  {
     "id": "LOOM",
     "name": "Loom Network",
     "min_size": "1",
@@ -1254,35 +1167,6 @@
       "processing_time_seconds": 0,
       "min_withdrawal_amount": 1,
       "max_withdrawal_amount": 34000
-    }
-  },
-  {
-    "id": "LRC",
-    "name": "Loopring",
-    "min_size": "1",
-    "status": "online",
-    "message": "We've started accepting Loopring deposits. Trading will begin shortly.",
-    "max_precision": "1",
-    "convertible_to": [
-
-    ],
-    "details": {
-      "type": "crypto",
-      "symbol": "",
-      "network_confirmations": 35,
-      "sort_order": 210,
-      "crypto_address_link": "https://etherscan.io/token/0xEF68e7C694F40c8202821eDF525dE3782458639f?a={{address}}",
-      "crypto_transaction_link": "https://etherscan.io/tx/0x{{txId}}",
-      "push_payment_methods": [
-        "crypto"
-      ],
-      "group_types": [
-
-      ],
-      "display_name": "",
-      "processing_time_seconds": 0,
-      "min_withdrawal_amount": 2.6,
-      "max_withdrawal_amount": 1400000
     }
   },
   {
@@ -1664,35 +1548,6 @@
       "processing_time_seconds": 0,
       "min_withdrawal_amount": 1.5,
       "max_withdrawal_amount": 36000
-    }
-  },
-  {
-    "id": "GRT",
-    "name": "The Graph",
-    "min_size": "10",
-    "status": "online",
-    "message": "",
-    "max_precision": "0.01",
-    "convertible_to": [
-
-    ],
-    "details": {
-      "type": "crypto",
-      "symbol": "",
-      "network_confirmations": 35,
-      "sort_order": 290,
-      "crypto_address_link": "https://etherscan.io/token/0x0d67f3e4bcbd2d6b7a90150c73bdf9ffc6b6de9b?a={{address}}",
-      "crypto_transaction_link": "https://etherscan.io/tx/0x{{txId}}",
-      "push_payment_methods": [
-        "crypto"
-      ],
-      "group_types": [
-
-      ],
-      "display_name": "",
-      "processing_time_seconds": 0,
-      "min_withdrawal_amount": 20,
-      "max_withdrawal_amount": 700000
     }
   },
   {
@@ -2160,35 +2015,6 @@
     }
   },
   {
-    "id": "SHIB",
-    "name": "Shiba Inu",
-    "min_size": "100000",
-    "status": "online",
-    "message": "",
-    "max_precision": "1",
-    "convertible_to": [
-
-    ],
-    "details": {
-      "type": "crypto",
-      "symbol": "",
-      "network_confirmations": 35,
-      "sort_order": 30,
-      "crypto_address_link": "https://etherscan.io/token/0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce?a={{address}}",
-      "crypto_transaction_link": "https://etherscan.io/tx/0x{{txId}}",
-      "push_payment_methods": [
-        "crypto"
-      ],
-      "group_types": [
-
-      ],
-      "display_name": "",
-      "processing_time_seconds": 0,
-      "min_withdrawal_amount": 1.0e-18,
-      "max_withdrawal_amount": 13213531000
-    }
-  },
-  {
     "id": "BOND",
     "name": "BarnBridge",
     "min_size": "0.01",
@@ -2244,35 +2070,6 @@
       "processing_time_seconds": 0,
       "min_withdrawal_amount": 1.0e-18,
       "max_withdrawal_amount": 50000
-    }
-  },
-  {
-    "id": "QNT",
-    "name": "Quant",
-    "min_size": "0.01",
-    "status": "online",
-    "message": "",
-    "max_precision": "0.001",
-    "convertible_to": [
-
-    ],
-    "details": {
-      "type": "crypto",
-      "symbol": "",
-      "network_confirmations": 35,
-      "sort_order": 80,
-      "crypto_address_link": "https://etherscan.io/token/0x4a220e6096b25eadb88358cb44068a3248254675?a={{address}}",
-      "crypto_transaction_link": "https://etherscan.io/tx/0x{{txId}}",
-      "push_payment_methods": [
-        "crypto"
-      ],
-      "group_types": [
-
-      ],
-      "display_name": "",
-      "processing_time_seconds": 0,
-      "min_withdrawal_amount": 1.0e-18,
-      "max_withdrawal_amount": 3125
     }
   },
   {
@@ -2476,35 +2273,6 @@
       "processing_time_seconds": 0,
       "min_withdrawal_amount": 1.0e-18,
       "max_withdrawal_amount": 2500
-    }
-  },
-  {
-    "id": "FET",
-    "name": "Fetch.ai",
-    "min_size": "1",
-    "status": "online",
-    "message": "",
-    "max_precision": "0.1",
-    "convertible_to": [
-
-    ],
-    "details": {
-      "type": "crypto",
-      "symbol": "",
-      "network_confirmations": 35,
-      "sort_order": 202,
-      "crypto_address_link": "https://etherscan.io/token/0xaea46a60368a7bd060eec7df8cba43b7ef41ad85?a={{address}}",
-      "crypto_transaction_link": "https://etherscan.io/tx/0x{{txId}}",
-      "push_payment_methods": [
-        "crypto"
-      ],
-      "group_types": [
-
-      ],
-      "display_name": "",
-      "processing_time_seconds": 0,
-      "min_withdrawal_amount": 0,
-      "max_withdrawal_amount": 0
     }
   },
   {
@@ -2737,35 +2505,6 @@
       "processing_time_seconds": 0,
       "min_withdrawal_amount": 1.0e-18,
       "max_withdrawal_amount": 204918
-    }
-  },
-  {
-    "id": "UST",
-    "name": "TerraUSD",
-    "min_size": "1",
-    "status": "online",
-    "message": "",
-    "max_precision": "0.01",
-    "convertible_to": [
-
-    ],
-    "details": {
-      "type": "crypto",
-      "symbol": "",
-      "network_confirmations": 35,
-      "sort_order": 59,
-      "crypto_address_link": "https://etherscan.io/token/0xa47c8bf37f92abed4a126bda807a7b7498661acd?a={{address}}",
-      "crypto_transaction_link": "https://etherscan.io/tx/0x{{txId}}",
-      "push_payment_methods": [
-        "crypto"
-      ],
-      "group_types": [
-
-      ],
-      "display_name": "",
-      "processing_time_seconds": 0,
-      "min_withdrawal_amount": 1.0e-18,
-      "max_withdrawal_amount": 500000
     }
   },
   {
@@ -3288,6 +3027,267 @@
       "processing_time_seconds": 0,
       "min_withdrawal_amount": 77,
       "max_withdrawal_amount": 975000
+    }
+  },
+  {
+    "id": "ACH",
+    "name": "Alchemy Pay",
+    "min_size": "0.1",
+    "status": "online",
+    "message": "",
+    "max_precision": "100",
+    "convertible_to": [
+
+    ],
+    "details": {
+      "type": "crypto",
+      "symbol": "",
+      "network_confirmations": 35,
+      "sort_order": 1356,
+      "crypto_address_link": "https://etherscan.io/token/0xed04915c23f00a313a544955524eb7dbd823143d?a={{address}}",
+      "crypto_transaction_link": "https://etherscan.io/tx/0x{{txId}}",
+      "push_payment_methods": [
+        "crypto"
+      ],
+      "group_types": [
+
+      ],
+      "display_name": "",
+      "processing_time_seconds": 0,
+      "min_withdrawal_amount": 1.0e-08,
+      "max_withdrawal_amount": 29000000
+    }
+  },
+  {
+    "id": "FET",
+    "name": "Fetch.ai",
+    "min_size": "1",
+    "status": "online",
+    "message": "",
+    "max_precision": "0.1",
+    "convertible_to": [
+
+    ],
+    "details": {
+      "type": "crypto",
+      "symbol": "",
+      "network_confirmations": 35,
+      "sort_order": 202,
+      "crypto_address_link": "https://etherscan.io/token/0xaea46a60368a7bd060eec7df8cba43b7ef41ad85?a={{address}}",
+      "crypto_transaction_link": "https://etherscan.io/tx/0x{{txId}}",
+      "push_payment_methods": [
+        "crypto"
+      ],
+      "group_types": [
+
+      ],
+      "display_name": "",
+      "processing_time_seconds": 0,
+      "min_withdrawal_amount": 1.0e-18,
+      "max_withdrawal_amount": 522735
+    }
+  },
+  {
+    "id": "BAND",
+    "name": "Band Protocol",
+    "min_size": "0.1",
+    "status": "online",
+    "message": "",
+    "max_precision": "0.01",
+    "convertible_to": [
+
+    ],
+    "details": {
+      "type": "crypto",
+      "symbol": "",
+      "network_confirmations": 35,
+      "sort_order": 160,
+      "crypto_address_link": "https://etherscan.io/token/0xba11d00c5f74255f56a5e366f4f77f5a186d7f55?a={{address}}",
+      "crypto_transaction_link": "https://etherscan.io/tx/0x{{txId}}",
+      "push_payment_methods": [
+        "crypto"
+      ],
+      "group_types": [
+
+      ],
+      "display_name": "",
+      "processing_time_seconds": 0,
+      "min_withdrawal_amount": 0.2,
+      "max_withdrawal_amount": 19000
+    }
+  },
+  {
+    "id": "BAT",
+    "name": "Basic Attention Token",
+    "min_size": "1",
+    "status": "online",
+    "message": "",
+    "max_precision": "0.00000001",
+    "convertible_to": [
+
+    ],
+    "details": {
+      "type": "crypto",
+      "symbol": "",
+      "network_confirmations": 35,
+      "sort_order": 70,
+      "crypto_address_link": "https://etherscan.io/token/0x0d8775f648430679a709e98d2b0cb6250d2887ef?a={{address}}",
+      "crypto_transaction_link": "https://etherscan.io/tx/0x{{txId}}",
+      "push_payment_methods": [
+        "crypto"
+      ],
+      "group_types": [
+
+      ],
+      "display_name": "",
+      "processing_time_seconds": 0,
+      "min_withdrawal_amount": 0.01,
+      "max_withdrawal_amount": 477000
+    }
+  },
+  {
+    "id": "LRC",
+    "name": "Loopring",
+    "min_size": "1",
+    "status": "online",
+    "message": "We've started accepting Loopring deposits. Trading will begin shortly.",
+    "max_precision": "1",
+    "convertible_to": [
+
+    ],
+    "details": {
+      "type": "crypto",
+      "symbol": "",
+      "network_confirmations": 35,
+      "sort_order": 210,
+      "crypto_address_link": "https://etherscan.io/token/0xEF68e7C694F40c8202821eDF525dE3782458639f?a={{address}}",
+      "crypto_transaction_link": "https://etherscan.io/tx/0x{{txId}}",
+      "push_payment_methods": [
+        "crypto"
+      ],
+      "group_types": [
+
+      ],
+      "display_name": "",
+      "processing_time_seconds": 0,
+      "min_withdrawal_amount": 2.6,
+      "max_withdrawal_amount": 473000
+    }
+  },
+  {
+    "id": "GRT",
+    "name": "The Graph",
+    "min_size": "10",
+    "status": "online",
+    "message": "",
+    "max_precision": "0.01",
+    "convertible_to": [
+
+    ],
+    "details": {
+      "type": "crypto",
+      "symbol": "",
+      "network_confirmations": 35,
+      "sort_order": 290,
+      "crypto_address_link": "https://etherscan.io/token/0x0d67f3e4bcbd2d6b7a90150c73bdf9ffc6b6de9b?a={{address}}",
+      "crypto_transaction_link": "https://etherscan.io/tx/0x{{txId}}",
+      "push_payment_methods": [
+        "crypto"
+      ],
+      "group_types": [
+
+      ],
+      "display_name": "",
+      "processing_time_seconds": 0,
+      "min_withdrawal_amount": 20,
+      "max_withdrawal_amount": 835000
+    }
+  },
+  {
+    "id": "UST",
+    "name": "TerraUSD",
+    "min_size": "1",
+    "status": "online",
+    "message": "",
+    "max_precision": "0.01",
+    "convertible_to": [
+
+    ],
+    "details": {
+      "type": "crypto",
+      "symbol": "",
+      "network_confirmations": 35,
+      "sort_order": 59,
+      "crypto_address_link": "https://etherscan.io/token/0xa47c8bf37f92abed4a126bda807a7b7498661acd?a={{address}}",
+      "crypto_transaction_link": "https://etherscan.io/tx/0x{{txId}}",
+      "push_payment_methods": [
+        "crypto"
+      ],
+      "group_types": [
+
+      ],
+      "display_name": "",
+      "processing_time_seconds": 0,
+      "min_withdrawal_amount": 1.0e-18,
+      "max_withdrawal_amount": 250000
+    }
+  },
+  {
+    "id": "SHIB",
+    "name": "Shiba Inu",
+    "min_size": "100000",
+    "status": "online",
+    "message": "",
+    "max_precision": "1",
+    "convertible_to": [
+
+    ],
+    "details": {
+      "type": "crypto",
+      "symbol": "",
+      "network_confirmations": 35,
+      "sort_order": 30,
+      "crypto_address_link": "https://etherscan.io/token/0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce?a={{address}}",
+      "crypto_transaction_link": "https://etherscan.io/tx/0x{{txId}}",
+      "push_payment_methods": [
+        "crypto"
+      ],
+      "group_types": [
+
+      ],
+      "display_name": "",
+      "processing_time_seconds": 0,
+      "min_withdrawal_amount": 1.0e-18,
+      "max_withdrawal_amount": 13213531000
+    }
+  },
+  {
+    "id": "QNT",
+    "name": "Quant",
+    "min_size": "0.01",
+    "status": "online",
+    "message": "",
+    "max_precision": "0.001",
+    "convertible_to": [
+
+    ],
+    "details": {
+      "type": "crypto",
+      "symbol": "",
+      "network_confirmations": 35,
+      "sort_order": 80,
+      "crypto_address_link": "https://etherscan.io/token/0x4a220e6096b25eadb88358cb44068a3248254675?a={{address}}",
+      "crypto_transaction_link": "https://etherscan.io/tx/0x{{txId}}",
+      "push_payment_methods": [
+        "crypto"
+      ],
+      "group_types": [
+
+      ],
+      "display_name": "",
+      "processing_time_seconds": 0,
+      "min_withdrawal_amount": 1.0e-18,
+      "max_withdrawal_amount": 2500
     }
   }
 ]
