@@ -58,35 +58,6 @@
     }
   },
   {
-    "id": "XYO",
-    "name": "XYO",
-    "min_size": "100",
-    "status": "online",
-    "message": "",
-    "max_precision": "0.1",
-    "convertible_to": [
-
-    ],
-    "details": {
-      "type": "crypto",
-      "symbol": "",
-      "network_confirmations": 35,
-      "sort_order": 413,
-      "crypto_address_link": "https://etherscan.io/token/0x55296f69f40ea6d20e478533c15a6b08b654e758?a={{address}}",
-      "crypto_transaction_link": "https://etherscan.io/tx/0x{{txId}}",
-      "push_payment_methods": [
-        "crypto"
-      ],
-      "group_types": [
-
-      ],
-      "display_name": "",
-      "processing_time_seconds": 0,
-      "min_withdrawal_amount": 1.0e-18,
-      "max_withdrawal_amount": 2770000
-    }
-  },
-  {
     "id": "DDX",
     "name": "DerivaDAO",
     "min_size": "0.1",
@@ -232,35 +203,6 @@
     }
   },
   {
-    "id": "AVAX",
-    "name": "Avalanche",
-    "min_size": "0.01",
-    "status": "online",
-    "message": "",
-    "max_precision": "0.001",
-    "convertible_to": [
-
-    ],
-    "details": {
-      "type": "crypto",
-      "symbol": "",
-      "network_confirmations": 1,
-      "sort_order": 30,
-      "crypto_address_link": "https://cchain.explorer.avax.network/address/{{address}}/transactions",
-      "crypto_transaction_link": "https://cchain.explorer.avax.network/tx/{{txId}}/token-transfers",
-      "push_payment_methods": [
-        "crypto"
-      ],
-      "group_types": [
-
-      ],
-      "display_name": "",
-      "processing_time_seconds": 0,
-      "min_withdrawal_amount": 0.1,
-      "max_withdrawal_amount": 25575
-    }
-  },
-  {
     "id": "RARI",
     "name": "Rarible",
     "min_size": "0.01",
@@ -374,6 +316,64 @@
       "processing_time_seconds": 0,
       "min_withdrawal_amount": 1.0e-18,
       "max_withdrawal_amount": 176800
+    }
+  },
+  {
+    "id": "XYO",
+    "name": "XYO",
+    "min_size": "100",
+    "status": "online",
+    "message": "",
+    "max_precision": "0.1",
+    "convertible_to": [
+
+    ],
+    "details": {
+      "type": "crypto",
+      "symbol": "",
+      "network_confirmations": 35,
+      "sort_order": 413,
+      "crypto_address_link": "https://etherscan.io/token/0x55296f69f40ea6d20e478533c15a6b08b654e758?a={{address}}",
+      "crypto_transaction_link": "https://etherscan.io/tx/0x{{txId}}",
+      "push_payment_methods": [
+        "crypto"
+      ],
+      "group_types": [
+
+      ],
+      "display_name": "",
+      "processing_time_seconds": 0,
+      "min_withdrawal_amount": 1.0e-18,
+      "max_withdrawal_amount": 13880000
+    }
+  },
+  {
+    "id": "AVAX",
+    "name": "Avalanche",
+    "min_size": "0.01",
+    "status": "online",
+    "message": "",
+    "max_precision": "0.001",
+    "convertible_to": [
+
+    ],
+    "details": {
+      "type": "crypto",
+      "symbol": "",
+      "network_confirmations": 1,
+      "sort_order": 30,
+      "crypto_address_link": "https://cchain.explorer.avax.network/address/{{address}}/transactions",
+      "crypto_transaction_link": "https://cchain.explorer.avax.network/tx/{{txId}}/token-transfers",
+      "push_payment_methods": [
+        "crypto"
+      ],
+      "group_types": [
+
+      ],
+      "display_name": "",
+      "processing_time_seconds": 0,
+      "min_withdrawal_amount": 0.1,
+      "max_withdrawal_amount": 7750
     }
   },
   {
@@ -851,35 +851,6 @@
     }
   },
   {
-    "id": "FIL",
-    "name": "Filecoin",
-    "min_size": "0.01",
-    "status": "online",
-    "message": "",
-    "max_precision": "0.001",
-    "convertible_to": [
-
-    ],
-    "details": {
-      "type": "crypto",
-      "symbol": "",
-      "network_confirmations": 60,
-      "sort_order": 250,
-      "crypto_address_link": "https://filfox.info/en/address/{{address}}",
-      "crypto_transaction_link": "https://filfox.info/en/message/{{txId}}",
-      "push_payment_methods": [
-        "crypto"
-      ],
-      "group_types": [
-
-      ],
-      "display_name": "",
-      "processing_time_seconds": 30,
-      "min_withdrawal_amount": 0,
-      "max_withdrawal_amount": 4000
-    }
-  },
-  {
     "id": "ADA",
     "name": "Cardano",
     "min_size": "1",
@@ -935,35 +906,6 @@
       "processing_time_seconds": 0,
       "min_withdrawal_amount": 0.04,
       "max_withdrawal_amount": 27000
-    }
-  },
-  {
-    "id": "DOT",
-    "name": "Polkadot",
-    "min_size": "0.01",
-    "status": "online",
-    "message": "We've started accepting DOT deposits. Trading will begin shortly.",
-    "max_precision": "0.001",
-    "convertible_to": [
-
-    ],
-    "details": {
-      "type": "crypto",
-      "symbol": "",
-      "network_confirmations": 10,
-      "sort_order": 30,
-      "crypto_address_link": "https://polkascan.io/polkadot/account/{{address}}",
-      "crypto_transaction_link": "https://polkascan.io/polkadot/balances/transfer/{{txId}}",
-      "push_payment_methods": [
-        "crypto"
-      ],
-      "group_types": [
-
-      ],
-      "display_name": "",
-      "processing_time_seconds": 0,
-      "min_withdrawal_amount": 1.03,
-      "max_withdrawal_amount": 13000
     }
   },
   {
@@ -1228,35 +1170,6 @@
     }
   },
   {
-    "id": "ZRX",
-    "name": "0x",
-    "min_size": "0.00001",
-    "status": "online",
-    "message": "",
-    "max_precision": "0.00000001",
-    "convertible_to": [
-
-    ],
-    "details": {
-      "type": "crypto",
-      "symbol": "Ξ",
-      "network_confirmations": 35,
-      "sort_order": 90,
-      "crypto_address_link": "https://etherscan.io/token/0xe41d2489571d322189246dafa5ebde1f4699f498?a={{address}}",
-      "crypto_transaction_link": "https://etherscan.io/tx/0x{{txId}}",
-      "push_payment_methods": [
-        "crypto"
-      ],
-      "group_types": [
-
-      ],
-      "display_name": "",
-      "processing_time_seconds": 0,
-      "min_withdrawal_amount": 0.001,
-      "max_withdrawal_amount": 375000
-    }
-  },
-  {
     "id": "BAT",
     "name": "Basic Attention Token",
     "min_size": "1",
@@ -1344,35 +1257,6 @@
     }
   },
   {
-    "id": "YFI",
-    "name": "yearn.finance",
-    "min_size": "0.00001",
-    "status": "online",
-    "message": "We've started accepting yearn.finance deposits. Trading will begin shortly.",
-    "max_precision": "0.000001",
-    "convertible_to": [
-
-    ],
-    "details": {
-      "type": "crypto",
-      "symbol": "",
-      "network_confirmations": 35,
-      "sort_order": 215,
-      "crypto_address_link": "https://etherscan.io/token/0x0bc529c00c6401aef6d220be8c6ea1667f6ad93e?a={{address}}",
-      "crypto_transaction_link": "https://etherscan.io/tx/0x{{txId}}",
-      "push_payment_methods": [
-        "crypto"
-      ],
-      "group_types": [
-
-      ],
-      "display_name": "",
-      "processing_time_seconds": 0,
-      "min_withdrawal_amount": 0.0002,
-      "max_withdrawal_amount": 42.5
-    }
-  },
-  {
     "id": "LRC",
     "name": "Loopring",
     "min_size": "1",
@@ -1428,35 +1312,6 @@
       "processing_time_seconds": 0,
       "min_withdrawal_amount": 0.01,
       "max_withdrawal_amount": 1130000
-    }
-  },
-  {
-    "id": "DNT",
-    "name": "district0x",
-    "min_size": "1",
-    "status": "online",
-    "message": "",
-    "max_precision": "0.00000001",
-    "convertible_to": [
-
-    ],
-    "details": {
-      "type": "crypto",
-      "symbol": "Ξ",
-      "network_confirmations": 35,
-      "sort_order": 130,
-      "crypto_address_link": "https://etherscan.io/token/0x0abdace70d3790235af448c88547603b945604ea?a={{address}}",
-      "crypto_transaction_link": "https://etherscan.io/tx/0x{{txId}}",
-      "push_payment_methods": [
-        "crypto"
-      ],
-      "group_types": [
-
-      ],
-      "display_name": "",
-      "processing_time_seconds": 0,
-      "min_withdrawal_amount": 0.01,
-      "max_withdrawal_amount": 1670000
     }
   },
   {
@@ -1754,35 +1609,6 @@
     }
   },
   {
-    "id": "NU",
-    "name": "NuCypher",
-    "min_size": "10",
-    "status": "online",
-    "message": "",
-    "max_precision": "0.000001",
-    "convertible_to": [
-
-    ],
-    "details": {
-      "type": "crypto",
-      "symbol": "",
-      "network_confirmations": 35,
-      "sort_order": 240,
-      "crypto_address_link": "https://etherscan.io/token/0x4fe83213d56308330ec302a8bd641f1d0113a4cc?a={{address}}",
-      "crypto_transaction_link": "https://etherscan.io/tx/0x{{txId}}",
-      "push_payment_methods": [
-        "crypto"
-      ],
-      "group_types": [
-
-      ],
-      "display_name": "",
-      "processing_time_seconds": 0,
-      "min_withdrawal_amount": 0,
-      "max_withdrawal_amount": 2180000
-    }
-  },
-  {
     "id": "AAVE",
     "name": "Aave",
     "min_size": "0.01",
@@ -1838,35 +1664,6 @@
       "processing_time_seconds": 0,
       "min_withdrawal_amount": 1.5,
       "max_withdrawal_amount": 36000
-    }
-  },
-  {
-    "id": "BNT",
-    "name": "Bancor",
-    "min_size": "1",
-    "status": "online",
-    "message": "",
-    "max_precision": "0.000001",
-    "convertible_to": [
-
-    ],
-    "details": {
-      "type": "crypto",
-      "symbol": "",
-      "network_confirmations": 35,
-      "sort_order": 300,
-      "crypto_address_link": "https://etherscan.io/token/0x1f573d6fb3f13d689ff844b4ce37794d79a7ff1c?a={{address}}",
-      "crypto_transaction_link": "https://etherscan.io/tx/0x{{txId}}",
-      "push_payment_methods": [
-        "crypto"
-      ],
-      "group_types": [
-
-      ],
-      "display_name": "",
-      "processing_time_seconds": 0,
-      "min_withdrawal_amount": 5.87,
-      "max_withdrawal_amount": 110000
     }
   },
   {
@@ -1954,35 +1751,6 @@
       "processing_time_seconds": 0,
       "min_withdrawal_amount": 1.0e-18,
       "max_withdrawal_amount": 1500
-    }
-  },
-  {
-    "id": "ANKR",
-    "name": "Ankr",
-    "min_size": "10",
-    "status": "online",
-    "message": "",
-    "max_precision": "1",
-    "convertible_to": [
-
-    ],
-    "details": {
-      "type": "crypto",
-      "symbol": "",
-      "network_confirmations": 35,
-      "sort_order": 400,
-      "crypto_address_link": "https://etherscan.io/token/0x8290333cef9e6d528dd5618fb97a76f268f3edd4?a={{address}}",
-      "crypto_transaction_link": "https://etherscan.io/tx/0x{{txId}}",
-      "push_payment_methods": [
-        "crypto"
-      ],
-      "group_types": [
-
-      ],
-      "display_name": "",
-      "processing_time_seconds": 0,
-      "min_withdrawal_amount": 520,
-      "max_withdrawal_amount": 1960000
     }
   },
   {
@@ -2102,35 +1870,6 @@
     }
   },
   {
-    "id": "1INCH",
-    "name": "1Inch",
-    "min_size": "0.1",
-    "status": "online",
-    "message": "",
-    "max_precision": "0.01",
-    "convertible_to": [
-
-    ],
-    "details": {
-      "type": "crypto",
-      "symbol": "",
-      "network_confirmations": 35,
-      "sort_order": 107,
-      "crypto_address_link": "https://etherscan.io/token/0x111111111117dc0aa78b770fa6a738034120c302?a={{address}}",
-      "crypto_transaction_link": "https://etherscan.io/tx/0x{{txId}}",
-      "push_payment_methods": [
-        "crypto"
-      ],
-      "group_types": [
-
-      ],
-      "display_name": "",
-      "processing_time_seconds": 0,
-      "min_withdrawal_amount": 3.33,
-      "max_withdrawal_amount": 31250
-    }
-  },
-  {
     "id": "ENJ",
     "name": "Enjin Coin",
     "min_size": "0.1",
@@ -2157,35 +1896,6 @@
       "processing_time_seconds": 0,
       "min_withdrawal_amount": 5.89,
       "max_withdrawal_amount": 243000
-    }
-  },
-  {
-    "id": "NKN",
-    "name": "NKN",
-    "min_size": "1",
-    "status": "online",
-    "message": "",
-    "max_precision": "0.1",
-    "convertible_to": [
-
-    ],
-    "details": {
-      "type": "crypto",
-      "symbol": "",
-      "network_confirmations": 35,
-      "sort_order": 308,
-      "crypto_address_link": "https://etherscan.io/token/0x5cf04716ba20127f1e2297addcf4b5035000c9eb?a={{address}}",
-      "crypto_transaction_link": "https://etherscan.io/tx/0x{{txId}}",
-      "push_payment_methods": [
-        "crypto"
-      ],
-      "group_types": [
-
-      ],
-      "display_name": "",
-      "processing_time_seconds": 0,
-      "min_withdrawal_amount": 77,
-      "max_withdrawal_amount": 385000
     }
   },
   {
@@ -2972,35 +2682,6 @@
     }
   },
   {
-    "id": "AXS",
-    "name": "Axie Infinity",
-    "min_size": "0.01",
-    "status": "online",
-    "message": "",
-    "max_precision": "0.001",
-    "convertible_to": [
-
-    ],
-    "details": {
-      "type": "crypto",
-      "symbol": "",
-      "network_confirmations": 35,
-      "sort_order": 54,
-      "crypto_address_link": "https://etherscan.io/token/0xbb0e17ef65f82ab018d8edd776e8dd940327b28b?a={{address}}",
-      "crypto_transaction_link": "https://etherscan.io/tx/0x{{txId}}",
-      "push_payment_methods": [
-        "crypto"
-      ],
-      "group_types": [
-
-      ],
-      "display_name": "",
-      "processing_time_seconds": 0,
-      "min_withdrawal_amount": 1.0e-18,
-      "max_withdrawal_amount": 30488
-    }
-  },
-  {
     "id": "QUICK",
     "name": "QuickSwap",
     "min_size": "0.001",
@@ -3146,12 +2827,12 @@
     }
   },
   {
-    "id": "WLUNA",
-    "name": "Wrapped Luna",
-    "min_size": "0.01",
+    "id": "YFI",
+    "name": "yearn.finance",
+    "min_size": "0.00001",
     "status": "online",
-    "message": "",
-    "max_precision": "0.001",
+    "message": "We've started accepting yearn.finance deposits. Trading will begin shortly.",
+    "max_precision": "0.000001",
     "convertible_to": [
 
     ],
@@ -3159,8 +2840,8 @@
       "type": "crypto",
       "symbol": "",
       "network_confirmations": 35,
-      "sort_order": 550,
-      "crypto_address_link": "https://etherscan.io/token/0xd2877702675e6ceb975b4a1dff9fb7baf4c91ea9?a={{address}}",
+      "sort_order": 215,
+      "crypto_address_link": "https://etherscan.io/token/0x0bc529c00c6401aef6d220be8c6ea1667f6ad93e?a={{address}}",
       "crypto_transaction_link": "https://etherscan.io/tx/0x{{txId}}",
       "push_payment_methods": [
         "crypto"
@@ -3170,8 +2851,8 @@
       ],
       "display_name": "",
       "processing_time_seconds": 0,
-      "min_withdrawal_amount": 1.0e-18,
-      "max_withdrawal_amount": 8515
+      "min_withdrawal_amount": 0.0002,
+      "max_withdrawal_amount": 20
     }
   },
   {
@@ -3288,6 +2969,325 @@
       "processing_time_seconds": 600,
       "min_withdrawal_amount": 22,
       "max_withdrawal_amount": 130000
+    }
+  },
+  {
+    "id": "WLUNA",
+    "name": "Wrapped Luna",
+    "min_size": "0.01",
+    "status": "online",
+    "message": "",
+    "max_precision": "0.001",
+    "convertible_to": [
+
+    ],
+    "details": {
+      "type": "crypto",
+      "symbol": "",
+      "network_confirmations": 35,
+      "sort_order": 550,
+      "crypto_address_link": "https://etherscan.io/token/0xd2877702675e6ceb975b4a1dff9fb7baf4c91ea9?a={{address}}",
+      "crypto_transaction_link": "https://etherscan.io/tx/0x{{txId}}",
+      "push_payment_methods": [
+        "crypto"
+      ],
+      "group_types": [
+
+      ],
+      "display_name": "",
+      "processing_time_seconds": 0,
+      "min_withdrawal_amount": 1.0e-18,
+      "max_withdrawal_amount": 7336
+    }
+  },
+  {
+    "id": "NU",
+    "name": "NuCypher",
+    "min_size": "10",
+    "status": "online",
+    "message": "",
+    "max_precision": "0.000001",
+    "convertible_to": [
+
+    ],
+    "details": {
+      "type": "crypto",
+      "symbol": "",
+      "network_confirmations": 35,
+      "sort_order": 240,
+      "crypto_address_link": "https://etherscan.io/token/0x4fe83213d56308330ec302a8bd641f1d0113a4cc?a={{address}}",
+      "crypto_transaction_link": "https://etherscan.io/tx/0x{{txId}}",
+      "push_payment_methods": [
+        "crypto"
+      ],
+      "group_types": [
+
+      ],
+      "display_name": "",
+      "processing_time_seconds": 0,
+      "min_withdrawal_amount": 43.3,
+      "max_withdrawal_amount": 2180000
+    }
+  },
+  {
+    "id": "FIL",
+    "name": "Filecoin",
+    "min_size": "0.01",
+    "status": "online",
+    "message": "",
+    "max_precision": "0.001",
+    "convertible_to": [
+
+    ],
+    "details": {
+      "type": "crypto",
+      "symbol": "",
+      "network_confirmations": 60,
+      "sort_order": 250,
+      "crypto_address_link": "https://filfox.info/en/address/{{address}}",
+      "crypto_transaction_link": "https://filfox.info/en/message/{{txId}}",
+      "push_payment_methods": [
+        "crypto"
+      ],
+      "group_types": [
+
+      ],
+      "display_name": "",
+      "processing_time_seconds": 0,
+      "min_withdrawal_amount": 0.2,
+      "max_withdrawal_amount": 4000
+    }
+  },
+  {
+    "id": "ZRX",
+    "name": "0x",
+    "min_size": "0.00001",
+    "status": "online",
+    "message": "",
+    "max_precision": "0.00000001",
+    "convertible_to": [
+
+    ],
+    "details": {
+      "type": "crypto",
+      "symbol": "",
+      "network_confirmations": 35,
+      "sort_order": 90,
+      "crypto_address_link": "https://etherscan.io/token/0xe41d2489571d322189246dafa5ebde1f4699f498?a={{address}}",
+      "crypto_transaction_link": "https://etherscan.io/tx/0x{{txId}}",
+      "push_payment_methods": [
+        "crypto"
+      ],
+      "group_types": [
+
+      ],
+      "display_name": "",
+      "processing_time_seconds": 0,
+      "min_withdrawal_amount": 0.001,
+      "max_withdrawal_amount": 600000
+    }
+  },
+  {
+    "id": "1INCH",
+    "name": "1Inch",
+    "min_size": "0.1",
+    "status": "online",
+    "message": "",
+    "max_precision": "0.01",
+    "convertible_to": [
+
+    ],
+    "details": {
+      "type": "crypto",
+      "symbol": "",
+      "network_confirmations": 35,
+      "sort_order": 107,
+      "crypto_address_link": "https://etherscan.io/token/0x111111111117dc0aa78b770fa6a738034120c302?a={{address}}",
+      "crypto_transaction_link": "https://etherscan.io/tx/0x{{txId}}",
+      "push_payment_methods": [
+        "crypto"
+      ],
+      "group_types": [
+
+      ],
+      "display_name": "",
+      "processing_time_seconds": 0,
+      "min_withdrawal_amount": 3.33,
+      "max_withdrawal_amount": 68000
+    }
+  },
+  {
+    "id": "BNT",
+    "name": "Bancor",
+    "min_size": "1",
+    "status": "online",
+    "message": "",
+    "max_precision": "0.000001",
+    "convertible_to": [
+
+    ],
+    "details": {
+      "type": "crypto",
+      "symbol": "",
+      "network_confirmations": 35,
+      "sort_order": 300,
+      "crypto_address_link": "https://etherscan.io/token/0x1f573d6fb3f13d689ff844b4ce37794d79a7ff1c?a={{address}}",
+      "crypto_transaction_link": "https://etherscan.io/tx/0x{{txId}}",
+      "push_payment_methods": [
+        "crypto"
+      ],
+      "group_types": [
+
+      ],
+      "display_name": "",
+      "processing_time_seconds": 0,
+      "min_withdrawal_amount": 5.87,
+      "max_withdrawal_amount": 131000
+    }
+  },
+  {
+    "id": "AXS",
+    "name": "Axie Infinity",
+    "min_size": "0.01",
+    "status": "online",
+    "message": "",
+    "max_precision": "0.001",
+    "convertible_to": [
+
+    ],
+    "details": {
+      "type": "crypto",
+      "symbol": "",
+      "network_confirmations": 35,
+      "sort_order": 54,
+      "crypto_address_link": "https://etherscan.io/token/0xbb0e17ef65f82ab018d8edd776e8dd940327b28b?a={{address}}",
+      "crypto_transaction_link": "https://etherscan.io/tx/0x{{txId}}",
+      "push_payment_methods": [
+        "crypto"
+      ],
+      "group_types": [
+
+      ],
+      "display_name": "",
+      "processing_time_seconds": 0,
+      "min_withdrawal_amount": 1.0e-18,
+      "max_withdrawal_amount": 15177
+    }
+  },
+  {
+    "id": "DNT",
+    "name": "district0x",
+    "min_size": "1",
+    "status": "online",
+    "message": "",
+    "max_precision": "0.00000001",
+    "convertible_to": [
+
+    ],
+    "details": {
+      "type": "crypto",
+      "symbol": "",
+      "network_confirmations": 35,
+      "sort_order": 130,
+      "crypto_address_link": "https://etherscan.io/token/0x0abdace70d3790235af448c88547603b945604ea?a={{address}}",
+      "crypto_transaction_link": "https://etherscan.io/tx/0x{{txId}}",
+      "push_payment_methods": [
+        "crypto"
+      ],
+      "group_types": [
+
+      ],
+      "display_name": "",
+      "processing_time_seconds": 0,
+      "min_withdrawal_amount": 0.01,
+      "max_withdrawal_amount": 1400000
+    }
+  },
+  {
+    "id": "ANKR",
+    "name": "Ankr",
+    "min_size": "10",
+    "status": "online",
+    "message": "",
+    "max_precision": "1",
+    "convertible_to": [
+
+    ],
+    "details": {
+      "type": "crypto",
+      "symbol": "",
+      "network_confirmations": 35,
+      "sort_order": 400,
+      "crypto_address_link": "https://etherscan.io/token/0x8290333cef9e6d528dd5618fb97a76f268f3edd4?a={{address}}",
+      "crypto_transaction_link": "https://etherscan.io/tx/0x{{txId}}",
+      "push_payment_methods": [
+        "crypto"
+      ],
+      "group_types": [
+
+      ],
+      "display_name": "",
+      "processing_time_seconds": 0,
+      "min_withdrawal_amount": 520,
+      "max_withdrawal_amount": 5000000
+    }
+  },
+  {
+    "id": "DOT",
+    "name": "Polkadot",
+    "min_size": "0.01",
+    "status": "online",
+    "message": "We've started accepting DOT deposits. Trading will begin shortly.",
+    "max_precision": "0.001",
+    "convertible_to": [
+
+    ],
+    "details": {
+      "type": "crypto",
+      "symbol": "",
+      "network_confirmations": 10,
+      "sort_order": 30,
+      "crypto_address_link": "https://polkascan.io/polkadot/account/{{address}}",
+      "crypto_transaction_link": "https://polkascan.io/polkadot/balances/transfer/{{txId}}",
+      "push_payment_methods": [
+        "crypto"
+      ],
+      "group_types": [
+
+      ],
+      "display_name": "",
+      "processing_time_seconds": 0,
+      "min_withdrawal_amount": 1.03,
+      "max_withdrawal_amount": 14000
+    }
+  },
+  {
+    "id": "NKN",
+    "name": "NKN",
+    "min_size": "1",
+    "status": "online",
+    "message": "",
+    "max_precision": "0.1",
+    "convertible_to": [
+
+    ],
+    "details": {
+      "type": "crypto",
+      "symbol": "",
+      "network_confirmations": 35,
+      "sort_order": 308,
+      "crypto_address_link": "https://etherscan.io/token/0x5cf04716ba20127f1e2297addcf4b5035000c9eb?a={{address}}",
+      "crypto_transaction_link": "https://etherscan.io/tx/0x{{txId}}",
+      "push_payment_methods": [
+        "crypto"
+      ],
+      "group_types": [
+
+      ],
+      "display_name": "",
+      "processing_time_seconds": 0,
+      "min_withdrawal_amount": 77,
+      "max_withdrawal_amount": 975000
     }
   }
 ]
