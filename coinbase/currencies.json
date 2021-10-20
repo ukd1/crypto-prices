@@ -2508,6 +2508,35 @@
     }
   },
   {
+    "id": "ASM",
+    "name": "Assemble Protocol",
+    "min_size": "10",
+    "status": "online",
+    "message": "",
+    "max_precision": "1",
+    "convertible_to": [
+
+    ],
+    "details": {
+      "type": "crypto",
+      "symbol": "",
+      "network_confirmations": 35,
+      "sort_order": 600,
+      "crypto_address_link": "https://etherscan.io/token/0x2565ae0385659badcada1031db704442e1b69982?a={{address}}",
+      "crypto_transaction_link": "https://etherscan.io/tx/0x{{txId}}",
+      "push_payment_methods": [
+        "crypto"
+      ],
+      "group_types": [
+
+      ],
+      "display_name": "",
+      "processing_time_seconds": 0,
+      "min_withdrawal_amount": 1.0e-18,
+      "max_withdrawal_amount": 4380000
+    }
+  },
+  {
     "id": "SOL",
     "name": "Solana",
     "min_size": "0.01",
