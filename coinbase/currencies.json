@@ -522,6 +522,122 @@
     }
   },
   {
+    "id": "TRAC",
+    "name": "OriginTrail",
+    "min_size": "0.1",
+    "status": "online",
+    "message": "",
+    "max_precision": "0.0001",
+    "convertible_to": [
+
+    ],
+    "details": {
+      "type": "crypto",
+      "symbol": "",
+      "network_confirmations": 35,
+      "sort_order": 279,
+      "crypto_address_link": "https://etherscan.io/token/0xaa7a9ca87d3694b5755f213b5d04094b8d0f0a6f?a={{address}}",
+      "crypto_transaction_link": "https://etherscan.io/tx/0x{{txId}}",
+      "push_payment_methods": [
+        "crypto"
+      ],
+      "group_types": [
+
+      ],
+      "display_name": "",
+      "processing_time_seconds": 0,
+      "min_withdrawal_amount": 1.0e-18,
+      "max_withdrawal_amount": 284091
+    }
+  },
+  {
+    "id": "LCX",
+    "name": "LCX Token",
+    "min_size": "0.1",
+    "status": "online",
+    "message": "",
+    "max_precision": "0.0001",
+    "convertible_to": [
+
+    ],
+    "details": {
+      "type": "crypto",
+      "symbol": "",
+      "network_confirmations": 35,
+      "sort_order": 507,
+      "crypto_address_link": "https://etherscan.io/token/0x037a54aab062628c9bbae1fdb1583c195585fe41?a={{address}}",
+      "crypto_transaction_link": "https://etherscan.io/tx/0x{{txId}}",
+      "push_payment_methods": [
+        "crypto"
+      ],
+      "group_types": [
+
+      ],
+      "display_name": "",
+      "processing_time_seconds": 0,
+      "min_withdrawal_amount": 1.0e-18,
+      "max_withdrawal_amount": 180000
+    }
+  },
+  {
+    "id": "KRL",
+    "name": "kryll",
+    "min_size": "0.1",
+    "status": "online",
+    "message": "",
+    "max_precision": "0.0001",
+    "convertible_to": [
+
+    ],
+    "details": {
+      "type": "crypto",
+      "symbol": "",
+      "network_confirmations": 35,
+      "sort_order": 826,
+      "crypto_address_link": "https://etherscan.io/token/0x464ebe77c293e473b48cfe96ddcf88fcf7bfdac0?a={{address}}",
+      "crypto_transaction_link": "https://etherscan.io/tx/0x{{txId}}",
+      "push_payment_methods": [
+        "crypto"
+      ],
+      "group_types": [
+
+      ],
+      "display_name": "",
+      "processing_time_seconds": 0,
+      "min_withdrawal_amount": 1.0e-18,
+      "max_withdrawal_amount": 534874
+    }
+  },
+  {
+    "id": "SUKU",
+    "name": "SUKU",
+    "min_size": "0",
+    "status": "online",
+    "message": "",
+    "max_precision": "0.000000000000000001",
+    "convertible_to": [
+
+    ],
+    "details": {
+      "type": "crypto",
+      "symbol": "",
+      "network_confirmations": 35,
+      "sort_order": 546,
+      "crypto_address_link": "https://etherscan.io/token/0x0763fdccf1ae541a5961815c0872a8c5bc6de4d7?a={{address}}",
+      "crypto_transaction_link": "https://etherscan.io/tx/0x{{txId}}",
+      "push_payment_methods": [
+        "crypto"
+      ],
+      "group_types": [
+
+      ],
+      "display_name": "",
+      "processing_time_seconds": 0,
+      "min_withdrawal_amount": 1.0e-18,
+      "max_withdrawal_amount": 500000
+    }
+  },
+  {
     "id": "EUR",
     "name": "Euro",
     "min_size": "0.01",
@@ -935,35 +1051,6 @@
       "processing_time_seconds": 5,
       "min_withdrawal_amount": 0.1,
       "max_withdrawal_amount": 302000
-    }
-  },
-  {
-    "id": "ADA",
-    "name": "Cardano",
-    "min_size": "1",
-    "status": "online",
-    "message": "",
-    "max_precision": "0.1",
-    "convertible_to": [
-
-    ],
-    "details": {
-      "type": "crypto",
-      "symbol": "",
-      "network_confirmations": 10,
-      "sort_order": 28,
-      "crypto_address_link": "https://explorer.cardano.org/en/address?address={{address}}",
-      "crypto_transaction_link": "",
-      "push_payment_methods": [
-        "crypto"
-      ],
-      "group_types": [
-
-      ],
-      "display_name": "",
-      "processing_time_seconds": 0,
-      "min_withdrawal_amount": 1,
-      "max_withdrawal_amount": 750000
     }
   },
   {
@@ -3404,6 +3491,35 @@
       "processing_time_seconds": 0,
       "min_withdrawal_amount": 1.0e-18,
       "max_withdrawal_amount": 31
+    }
+  },
+  {
+    "id": "ADA",
+    "name": "Cardano",
+    "min_size": "1",
+    "status": "online",
+    "message": "",
+    "max_precision": "0.1",
+    "convertible_to": [
+
+    ],
+    "details": {
+      "type": "crypto",
+      "symbol": "",
+      "network_confirmations": 10,
+      "sort_order": 28,
+      "crypto_address_link": "https://explorer.cardano.org/en/address?address={{address}}",
+      "crypto_transaction_link": "",
+      "push_payment_methods": [
+        "crypto"
+      ],
+      "group_types": [
+
+      ],
+      "display_name": "",
+      "processing_time_seconds": 0,
+      "min_withdrawal_amount": 1,
+      "max_withdrawal_amount": 570000
     }
   }
 ]
