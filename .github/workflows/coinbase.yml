@@ -23,9 +23,11 @@ jobs:
           ruby currencies.rb
           ruby products.rb
           ruby 24h_stats.rb
-          git add currencies.json products.json 
+          git add products.json 
           git commit products.json -m "Updated Coinbase products in run ${GITHUB_RUN_NUMBER}" || true
+          git add currencies.json
           git commit currencies.json -m "Updated Coinbase currencies in run ${GITHUB_RUN_NUMBER}" || true
+          git add 24h_stats/*.json
           git commit 24h_stats/*.json -m "Updated Coinbase price history in run ${GITHUB_RUN_NUMBER}" || true
       - name: Push repo
         run: git push || true
