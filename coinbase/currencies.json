@@ -261,6 +261,35 @@
     }
   },
   {
+    "id": "CRO",
+    "name": "Crypto.com Coin",
+    "min_size": "0.00000001",
+    "status": "online",
+    "message": "",
+    "max_precision": "0.00000001",
+    "convertible_to": [
+
+    ],
+    "details": {
+      "type": "crypto",
+      "symbol": "",
+      "network_confirmations": 35,
+      "sort_order": 75,
+      "crypto_address_link": "https://etherscan.io/token/0xa0b73e1ff0b80914ab6fe0444e65848c4c34450b?a={{address}}",
+      "crypto_transaction_link": "https://etherscan.io/tx/0x{{txId}}",
+      "push_payment_methods": [
+        "crypto"
+      ],
+      "group_types": [
+
+      ],
+      "display_name": "",
+      "processing_time_seconds": 0,
+      "min_withdrawal_amount": 1.0e-08,
+      "max_withdrawal_amount": 660000
+    }
+  },
+  {
     "id": "FX",
     "name": "Function X",
     "min_size": "1",
