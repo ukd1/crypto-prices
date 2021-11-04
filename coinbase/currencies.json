@@ -2131,35 +2131,6 @@
     }
   },
   {
-    "id": "CLV",
-    "name": "Clover Finance",
-    "min_size": "0.1",
-    "status": "online",
-    "message": "",
-    "max_precision": "0.01",
-    "convertible_to": [
-
-    ],
-    "details": {
-      "type": "crypto",
-      "symbol": "",
-      "network_confirmations": 35,
-      "sort_order": 212,
-      "crypto_address_link": "https://etherscan.io/token/0x80c62fe4487e1351b47ba49809ebd60ed085bf52?a={{address}}",
-      "crypto_transaction_link": "https://etherscan.io/tx/0x{{txId}}",
-      "push_payment_methods": [
-        "crypto"
-      ],
-      "group_types": [
-
-      ],
-      "display_name": "",
-      "processing_time_seconds": 0,
-      "min_withdrawal_amount": 1.0e-18,
-      "max_withdrawal_amount": 100000
-    }
-  },
-  {
     "id": "MASK",
     "name": "Mask Network",
     "min_size": "0.1",
@@ -3549,6 +3520,35 @@
       "processing_time_seconds": 0,
       "min_withdrawal_amount": 1,
       "max_withdrawal_amount": 570000
+    }
+  },
+  {
+    "id": "CLV",
+    "name": "Clover Finance",
+    "min_size": "0.1",
+    "status": "online",
+    "message": "",
+    "max_precision": "0.00000001",
+    "convertible_to": [
+
+    ],
+    "details": {
+      "type": "crypto",
+      "symbol": "",
+      "network_confirmations": 35,
+      "sort_order": 212,
+      "crypto_address_link": "https://etherscan.io/token/0x80c62fe4487e1351b47ba49809ebd60ed085bf52?a={{address}}",
+      "crypto_transaction_link": "https://etherscan.io/tx/0x{{txId}}",
+      "push_payment_methods": [
+        "crypto"
+      ],
+      "group_types": [
+
+      ],
+      "display_name": "",
+      "processing_time_seconds": 0,
+      "min_withdrawal_amount": 1.0e-18,
+      "max_withdrawal_amount": 100000
     }
   }
 ]
