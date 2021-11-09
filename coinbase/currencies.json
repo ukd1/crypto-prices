@@ -667,6 +667,35 @@
     }
   },
   {
+    "id": "GYEN",
+    "name": "GYEN",
+    "min_size": "0.000001",
+    "status": "online",
+    "message": "",
+    "max_precision": "0.000001",
+    "convertible_to": [
+
+    ],
+    "details": {
+      "type": "crypto",
+      "symbol": "",
+      "network_confirmations": 35,
+      "sort_order": 1015,
+      "crypto_address_link": "https://etherscan.io/token/0xc08512927d12348f6620a698105e1baac6ecd911?a={{address}}",
+      "crypto_transaction_link": "https://etherscan.io/tx/0x{{txId}}",
+      "push_payment_methods": [
+        "crypto"
+      ],
+      "group_types": [
+
+      ],
+      "display_name": "",
+      "processing_time_seconds": 0,
+      "min_withdrawal_amount": 1.0e-06,
+      "max_withdrawal_amount": 13736264
+    }
+  },
+  {
     "id": "EUR",
     "name": "Euro",
     "min_size": "0.01",
