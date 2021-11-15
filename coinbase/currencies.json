@@ -696,6 +696,122 @@
     }
   },
   {
+    "id": "POWR",
+    "name": "Power Ledger",
+    "min_size": "0.000001",
+    "status": "online",
+    "message": "",
+    "max_precision": "0.000001",
+    "convertible_to": [
+
+    ],
+    "details": {
+      "type": "crypto",
+      "symbol": "",
+      "network_confirmations": 35,
+      "sort_order": 395,
+      "crypto_address_link": "https://etherscan.io/token/0x595832f8fc6bf59c85c527fec3740a1b7a361269?a={{address}}",
+      "crypto_transaction_link": "https://etherscan.io/tx/0x{{txId}}",
+      "push_payment_methods": [
+        "crypto"
+      ],
+      "group_types": [
+
+      ],
+      "display_name": "",
+      "processing_time_seconds": 0,
+      "min_withdrawal_amount": 1.0e-06,
+      "max_withdrawal_amount": 320000
+    }
+  },
+  {
+    "id": "ALCX",
+    "name": "Alchemix",
+    "min_size": "0.0001",
+    "status": "online",
+    "message": "",
+    "max_precision": "0.000000000000000001",
+    "convertible_to": [
+
+    ],
+    "details": {
+      "type": "crypto",
+      "symbol": "",
+      "network_confirmations": 35,
+      "sort_order": 242,
+      "crypto_address_link": "https://etherscan.io/token/0xdbdb4d16eda451d0503b854cf79d55697f90c8df?a={{address}}",
+      "crypto_transaction_link": "https://etherscan.io/tx/0x{{txId}}",
+      "push_payment_methods": [
+        "crypto"
+      ],
+      "group_types": [
+
+      ],
+      "display_name": "",
+      "processing_time_seconds": 0,
+      "min_withdrawal_amount": 1.0e-18,
+      "max_withdrawal_amount": 307
+    }
+  },
+  {
+    "id": "MUSD",
+    "name": "mStable USD",
+    "min_size": "0.01",
+    "status": "online",
+    "message": "",
+    "max_precision": "0.000000000000000001",
+    "convertible_to": [
+
+    ],
+    "details": {
+      "type": "crypto",
+      "symbol": "",
+      "network_confirmations": 35,
+      "sort_order": 442,
+      "crypto_address_link": "https://etherscan.io/token/0xe2f2a5c287993345a840db3b0845fbc70f5935a5?a={{address}}",
+      "crypto_transaction_link": "https://etherscan.io/tx/0x{{txId}}",
+      "push_payment_methods": [
+        "crypto"
+      ],
+      "group_types": [
+
+      ],
+      "display_name": "",
+      "processing_time_seconds": 0,
+      "min_withdrawal_amount": 1.0e-18,
+      "max_withdrawal_amount": 130000
+    }
+  },
+  {
+    "id": "GALA",
+    "name": "Gala",
+    "min_size": "0.00000001",
+    "status": "online",
+    "message": "",
+    "max_precision": "0.00000001",
+    "convertible_to": [
+
+    ],
+    "details": {
+      "type": "crypto",
+      "symbol": "",
+      "network_confirmations": 35,
+      "sort_order": 167,
+      "crypto_address_link": "https://etherscan.io/token/0x15d4c048f83bd7e37d49ea4c83a07267ec4203da?a={{address}}",
+      "crypto_transaction_link": "https://etherscan.io/tx/0x{{txId}}",
+      "push_payment_methods": [
+        "crypto"
+      ],
+      "group_types": [
+
+      ],
+      "display_name": "",
+      "processing_time_seconds": 0,
+      "min_withdrawal_amount": 1.0e-08,
+      "max_withdrawal_amount": 1260000
+    }
+  },
+  {
     "id": "EUR",
     "name": "Euro",
     "min_size": "0.01",
@@ -788,6 +904,35 @@
       "processing_time_seconds": 0,
       "min_withdrawal_amount": 0,
       "max_withdrawal_amount": 0
+    }
+  },
+  {
+    "id": "ENS",
+    "name": "Ethereum Name Service",
+    "min_size": "0.001",
+    "status": "online",
+    "message": "",
+    "max_precision": "0.000000000000000001",
+    "convertible_to": [
+
+    ],
+    "details": {
+      "type": "crypto",
+      "symbol": "",
+      "network_confirmations": 35,
+      "sort_order": 129,
+      "crypto_address_link": "https://etherscan.io/token/0xC18360217D8F7Ab5e7c516566761Ea12Ce7F9D72?a={{address}}",
+      "crypto_transaction_link": "https://etherscan.io/tx/0x{{txId}}",
+      "push_payment_methods": [
+        "crypto"
+      ],
+      "group_types": [
+
+      ],
+      "display_name": "",
+      "processing_time_seconds": 0,
+      "min_withdrawal_amount": 1.0e-18,
+      "max_withdrawal_amount": 4000
     }
   },
   {
